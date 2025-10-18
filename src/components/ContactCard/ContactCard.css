@@ -1,0 +1,181 @@
+.ProfileCard {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+
+  background: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+
+  padding: 22px 20px 24px;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  animation: fadeUp 0.25s ease both;
+}
+
+.ProfileCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(37, 99, 235, 0.18);
+}
+
+.Kebab {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: 14px;
+  top: 10px;
+  border: none;
+  border-radius: 50%;
+  background: transparent;
+  color: #94a3b8;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 0px;
+  line-height: 1;
+  transition: color 0.2s ease;
+  border:1px dashed #24eb605e;
+}
+
+.Kebab:hover { background: rgba(255,255,255,.9); color: #1f2937; }
+.Kebab:active { transform: translateY(1px); }
+
+.Kebab.is-active {
+  background: rgba(251,191,36, .2);    
+  color: #f59e0b;                       
+  box-shadow: 0 2px 10px rgba(245,158,11,.35);
+}
+
+.Verified--fav {
+  box-shadow: 0 0 10px rgba(245,158,11,.8), 0 0 0 3px rgba(245,158,11,.25);
+  background: radial-gradient(circle at center, #fde68a 0%, #f59e0b 100%);
+}
+
+.AvatarWrap {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid rgba(255,255,255,0.9);
+  box-shadow: 0 0 0 3px rgba(37,99,235,0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f1f5f9;
+}
+
+.Avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.Name {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #1e3a8a;
+  text-align: center;
+  margin: 8px 0 2px;
+}
+
+.Name a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.Name a:hover {
+  text-decoration: underline;
+}
+
+.Verified {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: radial-gradient(circle at center, #34d399 0%, #059669 100%);
+  box-shadow: 0 0 6px rgba(16, 185, 129, 0.5);
+}
+
+.StatList {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 10px 0 0;
+  padding: 0;
+}
+
+.StatItem {
+  display: grid;
+  grid-template-columns: 26px 1fr auto;
+  align-items: center;
+  gap: 6px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.9), rgba(255,255,255,0.8));
+  border: 1px solid rgba(148,163,184,0.25);
+  border-radius: 12px;
+  padding: 8px 10px;
+  font-size: 0.9rem;
+  color: #334155;
+}
+
+.StatIcon {
+  font-size: 1.1rem;
+}
+
+.StatLabel {
+  color: #64748b;
+  font-weight: 500;
+}
+
+.StatValue {
+  font-weight: 600;
+  text-align: right;
+}
+
+.StatValue a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.StatValue a:hover {
+  text-decoration: underline;
+}
+
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
+@media (max-width: 768px) {
+  .ProfileCard {
+    padding: 18px 16px 20px;
+  }
+  .AvatarWrap {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+/* Тёмная тема на перёд*/
+@media (prefers-color-scheme: dark) {
+  .ProfileCard {
+    background: rgba(30,41,59,0.6);
+    border-color: rgba(255,255,255,0.08);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+  }
+  .Kebab { color: #94a3b8; }
+  .Name { color: #60a5fa; }
+  .StatItem {
+    background: rgba(15,23,42,0.6);
+    border-color: rgba(148,163,184,0.25);
+    color: #e2e8f0;
+  }
+  .StatLabel { color: #94a3b8; }
+  .StatValue a { color: #93c5fd; }
+}

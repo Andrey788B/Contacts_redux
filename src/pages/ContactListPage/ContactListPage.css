@@ -1,0 +1,82 @@
+
+.contacts-page {
+  display: flex;
+  justify-content: center;
+  padding: 24px 12px 32px;
+}
+
+.contacts-page__container {
+  width: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  row-gap: 16px;
+}
+
+.contacts-page__filter {
+  display: flex;
+  justify-content: center;
+}
+.contacts-page__filter > * {
+  /* max-width: 1180px;   совпадает с твоим .filter { max-width: 1180px } */
+  width: 70%;
+}
+
+.contacts-page__list {
+  display: flex;
+  justify-content: center;
+}
+
+.contacts-page__inner {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contacts-grid {
+  width: 100%;
+  max-width: 1200px;   
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  align-items: stretch;
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.contacts-grid > * {
+  width: 100%;
+  animation: fadeUp .25s ease both;
+  transition: transform .15s ease, box-shadow .2s ease;
+}
+
+.contacts-grid > *:hover {
+  transform: translateY(-2px);
+}
+
+.empty-state {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 36px 12px;
+  color: #64748b;
+  border: 2px dashed rgba(148,163,184,.3);
+  border-radius: 16px;
+}
+
+@media (max-width: 768px) {
+  .contacts-page { padding: 16px 10px 24px; }
+  .contacts-grid { gap: 14px; }
+}
+
+
+@media (prefers-color-scheme: dark) {
+  .empty-state {
+    color: #94a3b8;
+    border-color: rgba(148,163,184,.2);
+  }
+}

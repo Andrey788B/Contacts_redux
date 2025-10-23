@@ -5,12 +5,15 @@ import React, { memo, useMemo } from 'react';
 import { Row, Col } from 'react-bootstrap';
 
 import { useAppSelector } from '@/redux/hooks';
-import { contactsSelectors } from '@/redux/slices/contactsSlice';
 import { ContactCard } from '@/components/ContactCard/ContactCard';
+import { useGetContactsQuery } from '@/services/contactsApi';
 
 export const FavoritListPage = memo(() => {
   const favoriteIds = useAppSelector((s) => s.favorites.ids);
-  const allContacts = useAppSelector(contactsSelectors.selectAll);
+  const { data: allContacts = [], isLoading, isError } = useGetContactsQuery();
+
+  if (isLoading) return <p>Загрузка…</p>;
+  if (isError) return <p>Не удалось загрузить контакты</p>;
 
   const contacts = useMemo(() => {
     if (!favoriteIds.length) return [];

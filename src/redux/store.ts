@@ -1,7 +1,6 @@
 import { configureStore, createListenerMiddleware, isAnyOf } from '@reduxjs/toolkit';
 import favoritesReducer, { setFavorites, addFavorite, removeFavorite, toggleFavorite } from './slices/favoritesSlice';
-import contactsReducer from './slices/contactsSlice';
-import groupsReducer from './slices/groupsSlice';
+import { contactsApi } from '@/services/contactsApi';
 
 const preloadedFavs: string[] = (() => {
   try { return JSON.parse(localStorage.getItem('favorites') || '[]'); }
@@ -21,11 +20,10 @@ favoritesListener.startListening({
 
 export const store = configureStore({
   reducer: {
-    contacts: contactsReducer,
-    groups: groupsReducer,
     favorites: favoritesReducer,
+    [contactsApi.reducerPath]: contactsApi.reducer,
   },
-  middleware: (getDefault) => getDefault().concat(favoritesListener.middleware),
+  middleware: (getDefault) => getDefault().concat(favoritesListener.middleware, contactsApi.middleware),
 });
 
 if (preloadedFavs.length) {

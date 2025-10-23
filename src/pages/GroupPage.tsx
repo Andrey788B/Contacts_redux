@@ -8,25 +8,29 @@ import React, { memo, useMemo } from 'react';
 import { Col, Row } from 'react-bootstrap';
 import { useParams } from 'react-router-dom';
 
-import { useAppSelector } from '@/redux/hooks';
-import { contactsSelectors } from '@/redux/slices/contactsSlice';
-import { groupsSelectors } from '@/redux/slices/groupsSlice';
-
 import { GroupContactsCard } from '@/components/GroupContactsCard';
 import { ContactCard } from '@/components/ContactCard/ContactCard';
 import { Empty } from '@/components/Empty';
+import { useGetContactsQuery, useGetGroupsQuery } from '@/services/contactsApi';
 
 export const GroupPage = memo(() => {
-  const { groupId = '' } = useParams<{ groupId: string }>();
+  const { groupId = "" } = useParams<{ groupId: string }>();
 
-  const groupContacts = useAppSelector(s => groupsSelectors.selectById(s, groupId));
-  const allContacts = useAppSelector(contactsSelectors.selectAll);
+  const { data: groups = [], isLoading: gL, isError: gE } = useGetGroupsQuery();
+  const { data: allContacts = [], isLoading: cL, isError: cE } = useGetContactsQuery();
 
+  if (gL || cL) return <p>Загрузка…</p>;
+  if (gE || cE) return <p>Ошибка загрузки</p>;
+
+  const groupContacts = groups.find(g => g.id === groupId);
   const contacts = useMemo(() => {
     if (!groupContacts?.contactIds?.length) return [];
     const set = new Set(groupContacts.contactIds);
     return allContacts.filter(c => set.has(c.id));
   }, [groupContacts, allContacts]);
+
+  if (cL || gL) return <p>Загрузка…</p>;
+  if (cE || gE) return <p>Ошибка загрузки</p>;
 
   return (
     <Row className="g-4">

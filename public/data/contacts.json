@@ -1,0 +1,1792 @@
+[
+  {
+    "id": "ecd667da-0513-4dd5-ba50-e7cc69f6573c",
+    "address": "Apt. 964",
+    "birthday": "Wed Jan 25 2023",
+    "name": "Kali Murray",
+    "phone": "980-665-1768",
+    "photo": "/public/images/id-576-200-300.jpg",
+
+    "timeline": {
+      "edu": [
+        { "year": "2012–2016", "role": "Бакалавр, Дизайн", "place": "БВШД", "desc": "Графический и коммуникационный дизайн" },
+        { "year": "2016–2018", "role": "Магистр, UX/UI", "place": "HSE Art & Design School", "desc": "Интерактивные медиа и интерфейсы" }
+      ],
+
+      "exp": [
+        { "year": "2018–2020", "role": "Junior UX Designer", "place": "Digital Studio X", "desc": "Wireframes, user flow, тестирование" },
+        { "year": "2020–2023", "role": "UI Designer", "place": "FinTech Corp", "desc": "Системы дизайна, мобильные приложения" },
+        { "year": "2023–н.в.", "role": "UX/UI Designer", "place": "Freelance", "desc": "Продуктовый и веб-дизайн" }
+        ]
+    },
+
+  "dashboard": {
+    "stats": [
+      { "value": 12, "label": "Энергетика",   "img": "/pic/80_pic1.png" },
+      { "value": 8,  "label": "Строительство", "img": "/pic/80_pic2.png" },
+      { "value": 5,  "label": "Цифровизация",  "img": "/pic/80_pic3.png" },
+      { "value": 25, "label": "Всего проектов", "total": true }
+    ],
+    "skillGroups": [
+      {
+        "title": "Design Soft",
+        "items": [
+          { "label": "Photo...",  "percent": 87, "icon": "/icon/photoshop.png" },
+          { "label": "Visio",     "percent": 65, "icon": "/icon/visio.png" },
+          { "label": "Illus...",  "percent": 33, "icon": "/icon/illustrator.png" },
+          { "label": "Figma",     "percent": 4, "icon": "/icon/figma.png" },
+          { "label": "Blender",   "percent": 38, "icon": "/icon/blender.png" }
+        ]
+      },
+      {
+        "title": "Programming",
+        "items": [
+          { "label": "HTML5",  "percent": 3, "icon": "/icon/HTML5.svg" },
+          { "label": "React",  "percent": 28, "icon": "/icon/React.svg" },
+          { "label": "Python", "percent": 76, "icon": "/icon/Python.svg" },
+          { "label": "Node.js","percent": 69, "icon": "/icon/Node.svg" },
+          { "label": "Github", "percent": 61, "icon": "/icon/github.svg" }
+        ]
+      },
+      {
+        "title": "MS / Office",
+        "items": [
+          { "label": "Excel",    "percent": 12, "icon": "/icon/Excel.svg"      },
+          { "label": "Word",     "percent": 41, "icon": "/icon/Word.svg"       },
+          { "label": "PowerP" ,  "percent": 85, "icon": "/icon/powerpoint.png" },
+          { "label": "PowerB",   "percent": 90, "icon": "/icon/Power.svg"      },
+          { "label": "Project",  "percent": 71, "icon": "/icon/project.png"    }
+        ]
+      },
+      {
+        "title": "Engineering",
+        "items": [
+          { "label": "AuCAD",   "percent": 44, "icon": "/icon/autocad.png"    },
+          { "label": "SolidW",  "percent": 9, "icon": "/icon/solidworks.png" },
+          { "label": "Kom3D" ,  "percent": 58, "icon": "/icon/compass.png"    },
+          { "label": "Matlab",  "percent": 17, "icon": "/icon/matlab.svg"     },
+          { "label": "Abaqus",  "percent": 50, "icon": "/icon/abaqus.png"     }
+        ]
+      },
+      {
+        "title": "Languages",
+        "items": [
+          { "label": "English", "percent": 59, "icon": "/icon/EN.png"  },
+          { "label": "German",  "percent": 69, "icon": "/icon/GER.png" },
+          { "label": "Spanish" ,"percent": 14, "icon": "/icon/HES.png" },
+          { "label": "Chinese", "percent": 23, "icon": "/icon/CH.png"  },
+          { "label": "French",  "percent": 25, "icon": "/icon/FR.png"  }
+        ]
+      }
+    ],
+    
+    "contactBar": {
+      "name": "Kali Murray",
+      "role": "Product Designer",
+      "avatar": "/public/images/id-576-200-300.jpg",
+      "siteUrl": "#",
+      "primaryPhone": "+7 (999) 980-665-1768",
+      "primaryEmail": "mail@primary.com",
+      "secondaryPhone": "+7 (999) 111-11-11",
+      "secondaryEmail": "mail@secondary.com",
+      "socials": [
+        { "name": "Telegram", "url": "#", "icon": "/icon/soc/telegram.svg" },
+        { "name": "Twitter",  "url": "#", "icon": "/icon/soc/twitter.svg" },
+        { "name": "LinkedIn", "url": "#", "icon": "/icon/soc/linkedin.svg" }
+      ],
+      "portfolio": [
+        { "name": "GitHub",   "url": "#", "icon": "/icon/soc/github1.svg" },
+        { "name": "Behance",  "url": "#", "icon": "/icon/soc/behance.svg" },
+        { "name": "Dribbble", "url": "#", "icon": "/icon/soc/dribbble.svg" }
+      ]
+    }
+  },
+  
+    "info": {
+      "books": ["1984 — Джордж Оруэлл", "Мастер и Маргарита — М. Булгаков", "Сапиенс — Юваль Ной Харари"],
+      "movies": ["Интерстеллар", "Начало", "Матрица"],
+      "music": ["Hans Zimmer — Time", "Daft Punk — Get Lucky", "Muse — Uprising"],
+      "hobbies": ["Фотография", "Путешествия", "Программирование"]
+    }
+  
+  },
+
+  {
+    "id": "84465d40-ef7b-41c7-8de4-29e7fb4ddd21",
+    "address": "Apt. 116",
+    "birthday": "Tue Aug 02 2022",
+    "name": "Sydnee Langosh",
+    "phone": "(371) 981-1787 x923",
+    "photo": "/public/images/id-660-200-300.jpg",
+
+    "timeline": {
+      "edu": [
+        { "year": "2010–2014", "role": "Бакалавр, Информатика", "place": "НИУ ВШЭ", "desc": "Информационные технологии и UX" },
+        { "year": "2014–2016", "role": "Магистр, HCI", "place": "ITMO University", "desc": "Human-Computer Interaction" }
+      ],
+
+      "exp": [
+        { "year": "2016–2019", "role": "UX Researcher", "place": "Softline", "desc": "Юзабилити-тесты, аналитика поведения" },
+        { "year": "2019–2022", "role": "Product Designer", "place": "Яндекс", "desc": "Редизайн мобильных сервисов" },
+        { "year": "2022–н.в.", "role": "Lead UX Designer", "place": "Сбер", "desc": "UX-стратегии и дизайн-системы" }
+        ]
+    },
+
+  "dashboard": {
+    "stats": [
+      { "value": 3,  "label": "Энергетика",   "img": "/pic/80_pic1.png" },
+      { "value": 14,  "label": "Строительство", "img": "/pic/80_pic2.png" },
+      { "value": 9,  "label": "Цифровизация",  "img": "/pic/80_pic3.png" },
+      { "value": 26,  "label": "Всего проектов", "total": true }
+    ],
+    "skillGroups": [
+      {
+        "title": "Design Soft",
+        "items": [
+          { "label": "Photo...",  "percent": 72, "icon": "/icon/photoshop.png" },
+          { "label": "Visio",     "percent": 6, "icon": "/icon/visio.png" },
+          { "label": "Illus...",  "percent": 77, "icon": "/icon/illustrator.png" },
+          { "label": "Figma",     "percent": 9, "icon": "/icon/figma.png" },
+          { "label": "Blender",   "percent": 51, "icon": "/icon/blender.png" }
+        ]
+      },
+      {
+        "title": "Programming",
+        "items": [
+          { "label": "HTML5",  "percent": 14, "icon": "/icon/HTML5.svg" },
+          { "label": "React",  "percent": 53, "icon": "/icon/React.svg" },
+          { "label": "Python", "percent": 37, "icon": "/icon/Python.svg" },
+          { "label": "Node.js","percent": 42, "icon": "/icon/Node.svg" },
+          { "label": "Github", "percent": 27, "icon": "/icon/github.svg" }
+        ]
+      },
+      {
+        "title": "MS / Office",
+        "items": [
+          { "label": "Excel",    "percent": 63, "icon": "/icon/Excel.svg"      },
+          { "label": "Word",     "percent": 10, "icon": "/icon/Word.svg"       },
+          { "label": "PowerP" ,  "percent": 64, "icon": "/icon/powerpoint.png" },
+          { "label": "PowerB",   "percent": 88, "icon": "/icon/Power.svg"      },
+          { "label": "Project",  "percent": 97, "icon": "/icon/project.png"    }
+        ]
+      },
+      {
+        "title": "Engineering",
+        "items": [
+          { "label": "AuCAD",   "percent": 31, "icon": "/icon/autocad.png"    },
+          { "label": "SolidW",  "percent": 80, "icon": "/icon/solidworks.png" },
+          { "label": "Kom3D" ,  "percent": 2, "icon": "/icon/compass.png"    },
+          { "label": "Matlab",  "percent": 67, "icon": "/icon/matlab.svg"     },
+          { "label": "Abaqus",  "percent": 33, "icon": "/icon/abaqus.png"     }
+        ]
+      },
+      {
+        "title": "Languages",
+        "items": [
+          { "label": "English", "percent": 92, "icon": "/icon/EN.png"  },
+          { "label": "German",  "percent": 24, "icon": "/icon/GER.png" },
+          { "label": "Spanish" ,"percent": 56, "icon": "/icon/HES.png" },
+          { "label": "Chinese", "percent": 75, "icon": "/icon/CH.png"  },
+          { "label": "French",  "percent": 18, "icon": "/icon/FR.png"  }
+        ]
+      }
+    ],
+    
+    "contactBar": {
+      "name": "Sydnee Langosh",
+      "role": "Interaction Designer",
+      "avatar": "/public/images/id-660-200-300.jpg",
+      "siteUrl": "#",
+      "primaryPhone": "+7 (371) 981-1787 x923",
+      "primaryEmail": "mail@primary.com",
+      "secondaryPhone": "+7 (999) 111-11-11",
+      "secondaryEmail": "mail@secondary.com",
+      "socials": [
+        { "name": "Telegram", "url": "#", "icon": "/icon/soc/telegram.svg" },
+        { "name": "Twitter",  "url": "#", "icon": "/icon/soc/twitter.svg" },
+        { "name": "LinkedIn", "url": "#", "icon": "/icon/soc/linkedin.svg" }
+      ],
+      "portfolio": [
+        { "name": "GitHub",   "url": "#", "icon": "/icon/soc/github1.svg" },
+        { "name": "Behance",  "url": "#", "icon": "/icon/soc/behance.svg" },
+        { "name": "Dribbble", "url": "#", "icon": "/icon/soc/dribbble.svg" }
+      ]
+    }
+  },
+  
+    "info": {
+      "books": ["Цифровая крепость — Дэн Браун", "Чёрный лебедь — Нассим Талеб", "Краткая история времени — Стивен Хокинг"],
+      "movies": ["Игры разума", "Социальная сеть", "Терминатор 2"],
+      "music": ["Linkin Park — Numb", "The Weeknd — Blinding Lights", "Moby — Porcelain"],
+      "hobbies": ["Технологии", "Музыка", "Фитнес"]
+    }
+  
+  },
+
+  {
+    "id": "0fc3c0ea-0e30-439b-bf2d-393e044788b2",
+    "address": "Suite 573",
+    "birthday": "Fri Oct 28 2022",
+    "name": "Arlie Bruen",
+    "phone": "545.338.7920",
+    "photo": "/public/images/id-339-200-300.jpg",
+
+    "timeline": {
+      "edu": [
+        { "year": "2011–2015", "role": "Бакалавр, Архитектура", "place": "СПбГАСУ", "desc": "Проектирование пространственных систем" },
+        { "year": "2016–2018", "role": "Курсы, Дизайн интерфейсов", "place": "Skillbox", "desc": "UX, UI, прототипирование" }
+      ],
+
+      "exp": [
+        { "year": "2018–2020", "role": "Web Designer", "place": "Creative Agency", "desc": "Лендинги, фирменный стиль" },
+        { "year": "2020–2023", "role": "UX/UI Designer", "place": "Startup Hub", "desc": "MVP-продукты и дизайн систем" },
+        { "year": "2023–н.в.", "role": "Product Designer", "place": "Freelance", "desc": "Интерфейсы SaaS и дашборды" }
+        ]
+    },
+
+  "dashboard": {
+    "stats": [
+      { "value": 7,  "label": "Энергетика",   "img": "/pic/80_pic1.png" },
+      { "value": 10,  "label": "Строительство", "img": "/pic/80_pic2.png" },
+      { "value": 15,  "label": "Цифровизация",  "img": "/pic/80_pic3.png" },
+      { "value": 32,  "label": "Всего проектов", "total": true }
+    ],
+    "skillGroups": [
+      {
+        "title": "Design Soft",
+        "items": [
+          { "label": "Photo...",  "percent": 10, "icon": "/icon/photoshop.png" },
+          { "label": "Visio",     "percent": 55, "icon": "/icon/visio.png" },
+          { "label": "Illus...",  "percent": 73, "icon": "/icon/illustrator.png" },
+          { "label": "Figma",     "percent": 11, "icon": "/icon/figma.png" },
+          { "label": "Blender",   "percent": 8, "icon": "/icon/blender.png" }
+        ]
+      },
+      {
+        "title": "Programming",
+        "items": [
+          { "label": "HTML5",  "percent": 68, "icon": "/icon/HTML5.svg" },
+          { "label": "React",  "percent": 35, "icon": "/icon/React.svg" },
+          { "label": "Python", "percent": 59, "icon": "/icon/Python.svg" },
+          { "label": "Node.js","percent": 93, "icon": "/icon/Node.svg" },
+          { "label": "Github", "percent": 72, "icon": "/icon/github.svg" }
+        ]
+      },
+      {
+        "title": "MS / Office",
+        "items": [
+          { "label": "Excel",    "percent": 21, "icon": "/icon/Excel.svg"      },
+          { "label": "Word",     "percent": 83, "icon": "/icon/Word.svg"       },
+          { "label": "PowerP" ,  "percent": 14, "icon": "/icon/powerpoint.png" },
+          { "label": "PowerB",   "percent": 41, "icon": "/icon/Power.svg"      },
+          { "label": "Project",  "percent": 50, "icon": "/icon/project.png"    }
+        ]
+      },
+      {
+        "title": "Engineering",
+        "items": [
+          { "label": "AuCAD",   "percent": 83, "icon": "/icon/autocad.png"    },
+          { "label": "SolidW",  "percent": 99, "icon": "/icon/solidworks.png" },
+          { "label": "Kom3D" ,  "percent": 4, "icon": "/icon/compass.png"    },
+          { "label": "Matlab",  "percent": 31, "icon": "/icon/matlab.svg"     },
+          { "label": "Abaqus",  "percent": 50, "icon": "/icon/abaqus.png"     }
+        ]
+      },
+      {
+        "title": "Languages",
+        "items": [
+          { "label": "English", "percent": 47, "icon": "/icon/EN.png"  },
+          { "label": "German",  "percent": 26, "icon": "/icon/GER.png" },
+          { "label": "Spanish" ,"percent": 86, "icon": "/icon/HES.png" },
+          { "label": "Chinese", "percent": 64, "icon": "/icon/CH.png"  },
+          { "label": "French",  "percent": 45, "icon": "/icon/FR.png"  }
+        ]
+      }
+    ],
+    
+    "contactBar": {
+      "name": "Arlie Bruen",
+      "role": "Visual Designer",
+      "avatar": "/public/images/id-339-200-300.jpg",
+      "siteUrl": "#",
+      "primaryPhone": "+7 (999) 545.338.7920",
+      "primaryEmail": "mail@primary.com",
+      "secondaryPhone": "+7 (999) 111-11-11",
+      "secondaryEmail": "mail@secondary.com",
+      "socials": [
+        { "name": "Telegram", "url": "#", "icon": "/icon/soc/telegram.svg" },
+        { "name": "Twitter",  "url": "#", "icon": "/icon/soc/twitter.svg" },
+        { "name": "LinkedIn", "url": "#", "icon": "/icon/soc/linkedin.svg" }
+      ],
+      "portfolio": [
+        { "name": "GitHub",   "url": "#", "icon": "/icon/soc/github1.svg" },
+        { "name": "Behance",  "url": "#", "icon": "/icon/soc/behance.svg" },
+        { "name": "Dribbble", "url": "#", "icon": "/icon/soc/dribbble.svg" }
+      ]
+    }
+  },
+  
+    "info": {
+      "books": ["Три товарища — Эрих М. Ремарк", "Пикник на обочине — Стругацкие", "Анна Каренина — Л. Толстой"],
+      "movies": ["Бойцовский клуб", "Американская история X", "Достучаться до небес"],
+      "music": ["Rammstein — Sonne", "Arctic Monkeys — Do I Wanna Know?", "Nirvana — Smells Like Teen Spirit"],
+      "hobbies": ["Путешествия", "Мотоциклы", "Кулинария"]
+    }
+  
+  },
+
+  {
+    "id": "08b8735f-c1b6-4029-a96b-3d3e91869727",
+    "address": "Suite 935",
+    "birthday": "Fri Oct 14 2022",
+    "name": "Mellie Kessler",
+    "phone": "(805) 558-3542",
+    "photo": "/public/images/id-254-200-300.jpg",
+
+    "timeline": {
+      "edu": [
+        { "year": "2009–2013", "role": "Бакалавр, Маркетинг", "place": "РЭУ им. Плеханова", "desc": "Брендинг и коммуникации" },
+        { "year": "2015–2016", "role": "Курсы, UX Writing", "place": "Contented", "desc": "Микрокопирайтинг и tone of voice" }
+      ],
+
+      "exp": [
+        { "year": "2016–2019", "role": "UX Copywriter", "place": "Delivery App", "desc": "UX-тексты и контент интерфейсов" },
+        { "year": "2019–2023", "role": "Content Designer", "place": "Avito", "desc": "Информационная архитектура" },
+        { "year": "2023–н.в.", "role": "Senior UX Writer", "place": "Tinkoff", "desc": "Дизайн коммуникации в продуктах" }
+        ]
+    },
+
+  "dashboard": {
+    "stats": [
+      { "value": 4,  "label": "Энергетика",   "img": "/pic/80_pic1.png" },
+      { "value": 11,  "label": "Строительство", "img": "/pic/80_pic2.png" },
+      { "value": 16,  "label": "Цифровизация",  "img": "/pic/80_pic3.png" },
+      { "value": 31,  "label": "Всего проектов", "total": true }
+    ],
+    "skillGroups": [
+      {
+        "title": "Design Soft",
+        "items": [
+          { "label": "Photo...",  "percent": 32, "icon": "/icon/photoshop.png" },
+          { "label": "Visio",     "percent": 89, "icon": "/icon/visio.png" },
+          { "label": "Illus...",  "percent": 36, "icon": "/icon/illustrator.png" },
+          { "label": "Figma",     "percent": 9, "icon": "/icon/figma.png" },
+          { "label": "Blender",   "percent": 54, "icon": "/icon/blender.png" }
+        ]
+      },
+      {
+        "title": "Programming",
+        "items": [
+          { "label": "HTML5",  "percent": 16, "icon": "/icon/HTML5.svg" },
+          { "label": "React",  "percent": 70, "icon": "/icon/React.svg" },
+          { "label": "Python", "percent": 57, "icon": "/icon/Python.svg" },
+          { "label": "Node.js","percent": 95, "icon": "/icon/Node.svg" },
+          { "label": "Github", "percent": 3, "icon": "/icon/github.svg" }
+        ]
+      },
+      {
+        "title": "MS / Office",
+        "items": [
+          { "label": "Excel",    "percent": 98, "icon": "/icon/Excel.svg"      },
+          { "label": "Word",     "percent": 65, "icon": "/icon/Word.svg"       },
+          { "label": "PowerP" ,  "percent": 81, "icon": "/icon/powerpoint.png" },
+          { "label": "PowerB",   "percent": 38, "icon": "/icon/Power.svg"      },
+          { "label": "Project",  "percent": 42, "icon": "/icon/project.png"    }
+        ]
+      },
+      {
+        "title": "Engineering",
+        "items": [
+          { "label": "AuCAD",   "percent": 44, "icon": "/icon/autocad.png"    },
+          { "label": "SolidW",  "percent": 22, "icon": "/icon/solidworks.png" },
+          { "label": "Kom3D" ,  "percent": 24, "icon": "/icon/compass.png"    },
+          { "label": "Matlab",  "percent": 29, "icon": "/icon/matlab.svg"     },
+          { "label": "Abaqus",  "percent": 48, "icon": "/icon/abaqus.png"     }
+        ]
+      },
+      {
+        "title": "Languages",
+        "items": [
+          { "label": "English", "percent": 7, "icon": "/icon/EN.png"  },
+          { "label": "German",  "percent": 12, "icon": "/icon/GER.png" },
+          { "label": "Spanish" ,"percent": 5, "icon": "/icon/HES.png" },
+          { "label": "Chinese", "percent": 60, "icon": "/icon/CH.png"  },
+          { "label": "French",  "percent": 90, "icon": "/icon/FR.png"  }
+        ]
+      }
+    ],
+    
+    "contactBar": {
+      "name": "Mellie Kessler",
+      "role": "UX Researcher",
+      "avatar": "/public/images/id-254-200-300.jpg",
+      "siteUrl": "#",
+      "primaryPhone": "+7 (805) 558-3542",
+      "primaryEmail": "mail@primary.com",
+      "secondaryPhone": "+7 (999) 111-11-11",
+      "secondaryEmail": "mail@secondary.com",
+      "socials": [
+        { "name": "Telegram", "url": "#", "icon": "/icon/soc/telegram.svg" },
+        { "name": "Twitter",  "url": "#", "icon": "/icon/soc/twitter.svg" },
+        { "name": "LinkedIn", "url": "#", "icon": "/icon/soc/linkedin.svg" }
+      ],
+      "portfolio": [
+        { "name": "GitHub",   "url": "#", "icon": "/icon/soc/github1.svg" },
+        { "name": "Behance",  "url": "#", "icon": "/icon/soc/behance.svg" },
+        { "name": "Dribbble", "url": "#", "icon": "/icon/soc/dribbble.svg" }
+      ]
+    }
+  },
+  
+    "info": {
+      "books": ["451° по Фаренгейту — Рэй Брэдбери", "Игра в бисер — Г. Гессе", "Бог как иллюзия — Р. Докинз"],
+      "movies": ["Общество мёртвых поэтов", "Господин Никто", "Вечное сияние чистого разума"],
+      "music": ["Massive Attack — Teardrop", "Radiohead — Creep", "Coldplay — Clocks"],
+      "hobbies": ["Философия", "Письмо", "Анализ символов"]
+    }
+  
+  },
+
+  {
+    "id": "9dd3369c-e35e-4cff-922c-a3dd16cc475a",
+    "address": "Apt. 177",
+    "birthday": "Mon Jun 13 2022",
+    "name": "Spencer Jacobson",
+    "phone": "1-090-293-8090 x63779",
+    "photo": "/public/images/id-100-200-300.jpg",
+
+    "timeline": {
+      "edu": [
+        { "year": "2013–2017", "role": "Бакалавр, Программная инженерия", "place": "НИТУ МИСиС", "desc": "Разработка и UX" },
+        { "year": "2018", "role": "Курсы, UI Animation", "place": "Coursera", "desc": "Motion-дизайн для интерфейсов" }
+      ],
+
+      "exp": [
+        { "year": "2017–2019", "role": "Frontend Developer", "place": "Startup X", "desc": "SPA, дизайн-паттерны UI" },
+        { "year": "2019–2022", "role": "Interaction Designer", "place": "Mail.ru Group", "desc": "Анимации и микроинтеракции" },
+        { "year": "2022–н.в.", "role": "Senior Product Designer", "place": "Ozon", "desc": "Интерактивный UX, A/B тесты" }
+      ]
+    },
+
+  "dashboard": {
+    "stats": [
+      { "value": 6,  "label": "Энергетика",   "img": "/pic/80_pic1.png" },
+      { "value": 13,  "label": "Строительство", "img": "/pic/80_pic2.png" },
+      { "value": 17,  "label": "Цифровизация",  "img": "/pic/80_pic3.png" },
+      { "value": 36,  "label": "Всего проектов", "total": true }
+    ],
+    "skillGroups": [
+      {
+        "title": "Design Soft",
+        "items": [
+          { "label": "Photo...",  "percent": 2, "icon": "/icon/photoshop.png" },
+          { "label": "Visio",     "percent": 58, "icon": "/icon/visio.png" },
+          { "label": "Illus...",  "percent": 7, "icon": "/icon/illustrator.png" },
+          { "label": "Figma",     "percent": 16, "icon": "/icon/figma.png" },
+          { "label": "Blender",   "percent": 85, "icon": "/icon/blender.png" }
+        ]
+      },
+      {
+        "title": "Programming",
+        "items": [
+          { "label": "HTML5",  "percent": 12, "icon": "/icon/HTML5.svg" },
+          { "label": "React",  "percent": 94, "icon": "/icon/React.svg" },
+          { "label": "Python", "percent": 50, "icon": "/icon/Python.svg" },
+          { "label": "Node.js","percent": 9, "icon": "/icon/Node.svg" },
+          { "label": "Github", "percent": 36, "icon": "/icon/github.svg" }
+        ]
+      },
+      {
+        "title": "MS / Office",
+        "items": [
+          { "label": "Excel",    "percent": 86, "icon": "/icon/Excel.svg"      },
+          { "label": "Word",     "percent": 25, "icon": "/icon/Word.svg"       },
+          { "label": "PowerP" ,  "percent": 99, "icon": "/icon/powerpoint.png" },
+          { "label": "PowerB",   "percent": 13, "icon": "/icon/Power.svg"      },
+          { "label": "Project",  "percent": 33, "icon": "/icon/project.png"    }
+        ]
+      },
+      {
+        "title": "Engineering",
+        "items": [
+          { "label": "AuCAD",   "percent": 29, "icon": "/icon/autocad.png"    },
+          { "label": "SolidW",  "percent": 78, "icon": "/icon/solidworks.png" },
+          { "label": "Kom3D" ,  "percent": 44, "icon": "/icon/compass.png"    },
+          { "label": "Matlab",  "percent": 72, "icon": "/icon/matlab.svg"     },
+          { "label": "Abaqus",  "percent": 91, "icon": "/icon/abaqus.png"     }
+        ]
+      },
+      {
+        "title": "Languages",
+        "items": [
+          { "label": "English", "percent": 61, "icon": "/icon/EN.png"  },
+          { "label": "German",  "percent": 48, "icon": "/icon/GER.png" },
+          { "label": "Spanish" ,"percent": 20, "icon": "/icon/HES.png" },
+          { "label": "Chinese", "percent": 59, "icon": "/icon/CH.png"  },
+          { "label": "French",  "percent": 27, "icon": "/icon/FR.png"  }
+        ]
+      }
+    ],
+    
+    "contactBar": {
+      "name": "Spencer Jacobson",
+      "role": "UI Designer",
+      "avatar": "/public/images/id-100-200-300.jpg",
+      "siteUrl": "#",
+      "primaryPhone": "1-090-293-8090 x63779",
+      "primaryEmail": "mail@primary.com",
+      "secondaryPhone": "+7 (999) 111-11-11",
+      "secondaryEmail": "mail@secondary.com",
+      "socials": [
+        { "name": "Telegram", "url": "#", "icon": "/icon/soc/telegram.svg" },
+        { "name": "Twitter",  "url": "#", "icon": "/icon/soc/twitter.svg" },
+        { "name": "LinkedIn", "url": "#", "icon": "/icon/soc/linkedin.svg" }
+      ],
+      "portfolio": [
+        { "name": "GitHub",   "url": "#", "icon": "/icon/soc/github1.svg" },
+        { "name": "Behance",  "url": "#", "icon": "/icon/soc/behance.svg" },
+        { "name": "Dribbble", "url": "#", "icon": "/icon/soc/dribbble.svg" }
+      ]
+    }
+  },
+  
+    "info": {
+      "books": ["Дюна — Фрэнк Герберт", "Основание — Айзек Азимов", "Нейромант — Уильям Гибсон"],
+      "movies": ["Бегущий по лезвию 2049", "Экзистенция", "Трон: Наследие"],
+      "music": ["Vangelis — Blade Runner Theme", "Kavinsky — Nightcall", "The Prodigy — Firestarter"],
+      "hobbies": ["VR-технологии", "3D-моделирование", "Игры"]
+    }
+  
+  },
+
+  {
+    "id": "f70f71ac-937a-44a4-b7cc-654ba4a1b915",
+    "address": "Suite 814",
+    "birthday": "Sun Sep 11 2022",
+    "name": "Cara Kutch",
+    "phone": "620.649.7734 x8762",
+    "photo": "/public/images/id-419-200-300.jpg",
+
+    "timeline": {
+      "edu": [
+        { "year": "2010–2014", "role": "Бакалавр, Медиадизайн", "place": "БГУ", "desc": "Дизайн мультимедиа и UI" },
+        { "year": "2017", "role": "Курс, Service Design", "place": "Netology", "desc": "Дизайн клиентских сервисов" }
+      ],
+
+      "exp": [
+        { "year": "2014–2018", "role": "Graphic Designer", "place": "Advertising Agency", "desc": "Рекламные кампании" },
+        { "year": "2018–2022", "role": "Service Designer", "place": "Telecom Company", "desc": "Клиентские сценарии и CJM" },
+        { "year": "2022–н.в.", "role": "UX Strategist", "place": "Consulting", "desc": "Пользовательские инсайты" }
+        ]
+    },
+
+  "dashboard": {
+    "stats": [
+      { "value": 2,  "label": "Энергетика",   "img": "/pic/80_pic1.png" },
+      { "value": 9,  "label": "Строительство", "img": "/pic/80_pic2.png" },
+      { "value": 18,  "label": "Цифровизация",  "img": "/pic/80_pic3.png" },
+      { "value": 29,  "label": "Всего проектов", "total": true }
+    ],
+    "skillGroups": [
+      {
+        "title": "Design Soft",
+        "items": [
+          { "label": "Photo...",  "percent": 41, "icon": "/icon/photoshop.png" },
+          { "label": "Visio",     "percent": 25, "icon": "/icon/visio.png" },
+          { "label": "Illus...",  "percent": 52, "icon": "/icon/illustrator.png" },
+          { "label": "Figma",     "percent": 35, "icon": "/icon/figma.png" },
+          { "label": "Blender",   "percent": 62, "icon": "/icon/blender.png" }
+        ]
+      },
+      {
+        "title": "Programming",
+        "items": [
+          { "label": "HTML5",  "percent": 10, "icon": "/icon/HTML5.svg" },
+          { "label": "React",  "percent": 49, "icon": "/icon/React.svg" },
+          { "label": "Python", "percent": 37, "icon": "/icon/Python.svg" },
+          { "label": "Node.js","percent": 91, "icon": "/icon/Node.svg" },
+          { "label": "Github", "percent": 46, "icon": "/icon/github.svg" }
+        ]
+      },
+      {
+        "title": "MS / Office",
+        "items": [
+          { "label": "Excel",    "percent": 58, "icon": "/icon/Excel.svg"      },
+          { "label": "Word",     "percent": 66, "icon": "/icon/Word.svg"       },
+          { "label": "PowerP" ,  "percent": 8, "icon": "/icon/powerpoint.png" },
+          { "label": "PowerB",   "percent": 19, "icon": "/icon/Power.svg"      },
+          { "label": "Project",  "percent": 55, "icon": "/icon/project.png"    }
+        ]
+      },
+      {
+        "title": "Engineering",
+        "items": [
+          { "label": "AuCAD",   "percent": 96, "icon": "/icon/autocad.png"    },
+          { "label": "SolidW",  "percent": 11, "icon": "/icon/solidworks.png" },
+          { "label": "Kom3D" ,  "percent": 72, "icon": "/icon/compass.png"    },
+          { "label": "Matlab",  "percent": 84, "icon": "/icon/matlab.svg"     },
+          { "label": "Abaqus",  "percent": 29, "icon": "/icon/abaqus.png"     }
+        ]
+      },
+      {
+        "title": "Languages",
+        "items": [
+          { "label": "English", "percent": 7, "icon": "/icon/EN.png"  },
+          { "label": "German",  "percent": 89, "icon": "/icon/GER.png" },
+          { "label": "Spanish" ,"percent": 64, "icon": "/icon/HES.png" },
+          { "label": "Chinese", "percent": 27, "icon": "/icon/CH.png"  },
+          { "label": "French",  "percent": 93, "icon": "/icon/FR.png"  }
+        ]
+      }
+    ],
+    
+    "contactBar": {
+      "name": "Cara Kutch",
+      "role": "UX Strategist",
+      "avatar": "/public/images/id-419-200-300.jpg",
+      "siteUrl": "#",
+      "primaryPhone": "620.649.7734 x8762",
+      "primaryEmail": "mail@primary.com",
+      "secondaryPhone": "+7 (999) 111-11-11",
+      "secondaryEmail": "mail@secondary.com",
+      "socials": [
+        { "name": "Telegram", "url": "#", "icon": "/icon/soc/telegram.svg" },
+        { "name": "Twitter",  "url": "#", "icon": "/icon/soc/twitter.svg" },
+        { "name": "LinkedIn", "url": "#", "icon": "/icon/soc/linkedin.svg" }
+      ],
+      "portfolio": [
+        { "name": "GitHub",   "url": "#", "icon": "/icon/soc/github1.svg" },
+        { "name": "Behance",  "url": "#", "icon": "/icon/soc/behance.svg" },
+        { "name": "Dribbble", "url": "#", "icon": "/icon/soc/dribbble.svg" }
+      ]
+    }
+  },
+  
+    "info": {
+      "books": ["Алхимик — Пауло Коэльо", "Маленький принц — А. де Сент-Экзюпери", "Наука быть живым — Эрих Фромм"],
+      "movies": ["Амели", "Пи", "Жизнь Пи"],
+      "music": ["Yiruma — River Flows in You", "Lana Del Rey — Young and Beautiful", "Enya — Only Time"],
+      "hobbies": ["Живопись", "Медитация", "Психология"]
+    }
+  
+  },
+
+  {
+    "id": "6d71425d-fd8c-4f6e-a676-f4191ec5e901",
+    "address": "Apt. 257",
+    "birthday": "Tue Sep 06 2022",
+    "name": "Jorge Boehm",
+    "phone": "726-914-2311 x610",
+    "photo": "/public/images/id-47-200-300.jpg",
+
+    "timeline": {
+      "edu": [
+        { "year": "2012–2016", "role": "Бакалавр, Психология", "place": "МГУ", "desc": "Когнитивная психология и UX" },
+        { "year": "2017–2018", "role": "Курс, UX Research", "place": "Coursera", "desc": "Пользовательские исследования" }
+      ],
+
+      "exp": [
+        { "year": "2016–2019", "role": "UX Analyst", "place": "Game Studio", "desc": "Игровые интерфейсы, UX-тесты" },
+        { "year": "2019–2022", "role": "UX Researcher", "place": "SaaS Platform", "desc": "Глубинные интервью, JTBD" },
+        { "year": "2022–н.в.", "role": "Head of Research", "place": "Product Lab", "desc": "Аналитика и стратегия UX" }
+        ]
+    },
+
+  "dashboard": {
+    "stats": [
+      { "value": 5,  "label": "Энергетика",   "img": "/pic/80_pic1.png" },
+      { "value": 14,  "label": "Строительство", "img": "/pic/80_pic2.png" },
+      { "value": 19,  "label": "Цифровизация",  "img": "/pic/80_pic3.png" },
+      { "value": 38,  "label": "Всего проектов", "total": true }
+    ],
+    "skillGroups": [
+      {
+        "title": "Design Soft",
+        "items": [
+          { "label": "Photo...",  "percent": 48, "icon": "/icon/photoshop.png" },
+          { "label": "Visio",     "percent": 32, "icon": "/icon/visio.png" },
+          { "label": "Illus...",  "percent": 60, "icon": "/icon/illustrator.png" },
+          { "label": "Figma",     "percent": 27, "icon": "/icon/figma.png" },
+          { "label": "Blender",   "percent": 98, "icon": "/icon/blender.png" }
+        ]
+      },
+      {
+        "title": "Programming",
+        "items": [
+          { "label": "HTML5",  "percent": 3, "icon": "/icon/HTML5.svg" },
+          { "label": "React",  "percent": 95, "icon": "/icon/React.svg" },
+          { "label": "Python", "percent": 22, "icon": "/icon/Python.svg" },
+          { "label": "Node.js","percent": 77, "icon": "/icon/Node.svg" },
+          { "label": "Github", "percent": 8, "icon": "/icon/github.svg" }
+        ]
+      },
+      {
+        "title": "MS / Office",
+        "items": [
+          { "label": "Excel",    "percent": 26, "icon": "/icon/Excel.svg"      },
+          { "label": "Word",     "percent": 19, "icon": "/icon/Word.svg"       },
+          { "label": "PowerP" ,  "percent": 71, "icon": "/icon/powerpoint.png" },
+          { "label": "PowerB",   "percent": 79, "icon": "/icon/Power.svg"      },
+          { "label": "Project",  "percent": 35, "icon": "/icon/project.png"    }
+        ]
+      },
+      {
+        "title": "Engineering",
+        "items": [
+          { "label": "AuCAD",   "percent": 81, "icon": "/icon/autocad.png"    },
+          { "label": "SolidW",  "percent": 56, "icon": "/icon/solidworks.png" },
+          { "label": "Kom3D" ,  "percent": 11, "icon": "/icon/compass.png"    },
+          { "label": "Matlab",  "percent": 16, "icon": "/icon/matlab.svg"     },
+          { "label": "Abaqus",  "percent": 70, "icon": "/icon/abaqus.png"     }
+        ]
+      },
+      {
+        "title": "Languages",
+        "items": [
+          { "label": "English", "percent": 67, "icon": "/icon/EN.png"  },
+          { "label": "German",  "percent": 4, "icon": "/icon/GER.png" },
+          { "label": "Spanish" ,"percent": 86, "icon": "/icon/HES.png" },
+          { "label": "Chinese", "percent": 50, "icon": "/icon/CH.png"  },
+          { "label": "French",  "percent": 25, "icon": "/icon/FR.png"  }
+        ]
+      }
+    ],
+    
+    "contactBar": {
+      "name": "Jorge Boehm",
+      "role": "Design System Specialist",
+      "avatar": "/public/images/id-47-200-300.jpg",
+      "siteUrl": "#",
+      "primaryPhone": "726-914-2311 x610",
+      "primaryEmail": "mail@primary.com",
+      "secondaryPhone": "+7 (999) 111-11-11",
+      "secondaryEmail": "mail@secondary.com",
+      "socials": [
+        { "name": "Telegram", "url": "#", "icon": "/icon/soc/telegram.svg" },
+        { "name": "Twitter",  "url": "#", "icon": "/icon/soc/twitter.svg" },
+        { "name": "LinkedIn", "url": "#", "icon": "/icon/soc/linkedin.svg" }
+      ],
+      "portfolio": [
+        { "name": "GitHub",   "url": "#", "icon": "/icon/soc/github1.svg" },
+        { "name": "Behance",  "url": "#", "icon": "/icon/soc/behance.svg" },
+        { "name": "Dribbble", "url": "#", "icon": "/icon/soc/dribbble.svg" }
+      ]
+    }
+  },
+  
+    "info": {
+      "books": ["Думай медленно, решай быстро — Д. Канеман", "Rework — Джейсон Фрайд", "Atomic Habits — Джеймс Клир"],
+      "movies": ["Основатель", "Стив Джобс", "Дьявол носит Prada"],
+      "music": ["Imagine Dragons — Believer", "Coldplay — Viva La Vida", "Zedd — Clarity"],
+      "hobbies": ["Стартапы", "Дизайн", "Саморазвитие"]
+    }
+  },
+
+  {
+    "id": "9030a77e-7e6c-4052-9736-438b9252073e",
+    "address": "Suite 036",
+    "birthday": "Mon Oct 10 2022",
+    "name": "Lorena DuBuque",
+    "phone": "282-417-0558 x896",
+    "photo": "/public/images/id-732-200-300.jpg",
+
+    "timeline": {
+      "edu": [
+        { "year": "2011–2015", "role": "Бакалавр, Электроэнергетика", "place": "МЭИ", "desc": "Теплоэнергетика и автоматизация" },
+        { "year": "2018", "role": "Курс, UX/UI Design", "place": "Coursera", "desc": "Figma, прототипирование, UX Flow" }
+      ],
+
+      "exp": [
+        { "year": "2015–2020", "role": "Инженер", "place": "Энергосеть", "desc": "Проектирование и SCADA" },
+        { "year": "2020–2023", "role": "UX/UI Designer", "place": "EnergyTech", "desc": "Интерфейсы диспетчеризации" },
+        { "year": "2023–н.в.", "role": "Product Designer", "place": "Freelance", "desc": "Инженерные и IT-проекты" }
+        ]
+    },
+
+  "dashboard": {
+    "stats": [
+      { "value": 8,  "label": "Энергетика",   "img": "/pic/80_pic1.png" },
+      { "value": 7,  "label": "Строительство", "img": "/pic/80_pic2.png" },
+      { "value": 12,  "label": "Цифровизация",  "img": "/pic/80_pic3.png" },
+      { "value": 27,  "label": "Всего проектов", "total": true }
+    ],
+    "skillGroups": [
+      {
+        "title": "Design Soft",
+        "items": [
+          { "label": "Photo...",  "percent": 83, "icon": "/icon/photoshop.png" },
+          { "label": "Visio",     "percent": 3, "icon": "/icon/visio.png" },
+          { "label": "Illus...",  "percent": 19, "icon": "/icon/illustrator.png" },
+          { "label": "Figma",     "percent": 46, "icon": "/icon/figma.png" },
+          { "label": "Blender",   "percent": 9, "icon": "/icon/blender.png" }
+        ]
+      },
+      {
+        "title": "Programming",
+        "items": [
+          { "label": "HTML5",  "percent": 12, "icon": "/icon/HTML5.svg" },
+          { "label": "React",  "percent": 56, "icon": "/icon/React.svg" },
+          { "label": "Python", "percent": 99, "icon": "/icon/Python.svg" },
+          { "label": "Node.js","percent": 48, "icon": "/icon/Node.svg" },
+          { "label": "Github", "percent": 22, "icon": "/icon/github.svg" }
+        ]
+      },
+      {
+        "title": "MS / Office",
+        "items": [
+          { "label": "Excel",    "percent": 64, "icon": "/icon/Excel.svg"      },
+          { "label": "Word",     "percent": 37, "icon": "/icon/Word.svg"       },
+          { "label": "PowerP" ,  "percent": 28, "icon": "/icon/powerpoint.png" },
+          { "label": "PowerB",   "percent": 17, "icon": "/icon/Power.svg"      },
+          { "label": "Project",  "percent": 74, "icon": "/icon/project.png"    }
+        ]
+      },
+      {
+        "title": "Engineering",
+        "items": [
+          { "label": "AuCAD",   "percent": 25, "icon": "/icon/autocad.png"    },
+          { "label": "SolidW",  "percent": 80, "icon": "/icon/solidworks.png" },
+          { "label": "Kom3D" ,  "percent": 69, "icon": "/icon/compass.png"    },
+          { "label": "Matlab",  "percent": 71, "icon": "/icon/matlab.svg"     },
+          { "label": "Abaqus",  "percent": 33, "icon": "/icon/abaqus.png"     }
+        ]
+      },
+      {
+        "title": "Languages",
+        "items": [
+          { "label": "English", "percent": 91, "icon": "/icon/EN.png"  },
+          { "label": "German",  "percent": 44, "icon": "/icon/GER.png" },
+          { "label": "Spanish" ,"percent": 57, "icon": "/icon/HES.png" },
+          { "label": "Chinese", "percent": 5, "icon": "/icon/CH.png"  },
+          { "label": "French",  "percent": 62, "icon": "/icon/FR.png"  }
+        ]
+      }
+    ],
+    
+    "contactBar": {
+      "name": "Lorena DuBuque",
+      "role": "Information Architect",
+      "avatar": "/public/images/id-732-200-300.jpg",
+      "siteUrl": "#",
+      "primaryPhone": "282-417-0558 x896",
+      "primaryEmail": "mail@primary.com",
+      "secondaryPhone": "+7 (999) 111-11-11",
+      "secondaryEmail": "mail@secondary.com",
+      "socials": [
+        { "name": "Telegram", "url": "#", "icon": "/icon/soc/telegram.svg" },
+        { "name": "Twitter",  "url": "#", "icon": "/icon/soc/twitter.svg" },
+        { "name": "LinkedIn", "url": "#", "icon": "/icon/soc/linkedin.svg" }
+      ],
+      "portfolio": [
+        { "name": "GitHub",   "url": "#", "icon": "/icon/soc/github1.svg" },
+        { "name": "Behance",  "url": "#", "icon": "/icon/soc/behance.svg" },
+        { "name": "Dribbble", "url": "#", "icon": "/icon/soc/dribbble.svg" }
+      ]
+    }
+  },
+  
+    "info": {
+      "books": ["Путь программиста — Джон Сонмез", "Clean Code — Роберт Мартин", "Refactoring — Мартин Фаулер"],
+      "movies": ["Хакеры", "Сеть", "Эксперимент"],
+      "music": ["The Glitch Mob — We Can Make the World Stop", "ODESZA — A Moment Apart", "Deadmau5 — Strobe"],
+      "hobbies": ["Кодинг", "UI/UX", "Электроника"]
+    }
+  
+  },
+
+  {
+    "id": "33fdfec9-4278-4b8c-8fbd-f30cbde96e7b",
+    "address": "Apt. 897",
+    "birthday": "Thu Apr 13 2023",
+    "name": "Fritz Steuber",
+    "phone": "1-116-066-7549 x6719",
+    "photo": "/public/images/id-68-200-300.jpg",
+
+    "timeline": {
+      "edu": [
+        { "year": "2013–2017", "role": "Бакалавр, Computer Science", "place": "ITMO", "desc": "Веб-разработка и UX" },
+        { "year": "2020", "role": "Курс, Design Thinking", "place": "Stanford Online", "desc": "Креативное проектирование" }
+      ],
+
+      "exp": [
+        { "year": "2017–2020", "role": "UI Developer", "place": "Startup", "desc": "Веб-интерфейсы, React" },
+        { "year": "2020–2022", "role": "UX Engineer", "place": "Google", "desc": "UX и фронтенд-интеграции" },
+        { "year": "2022–н.в.", "role": "Design Technologist", "place": "Meta", "desc": "Прототипирование в коде" }
+        ]
+    },
+
+  "dashboard": {
+    "stats": [
+      { "value": 10,  "label": "Энергетика",   "img": "/pic/80_pic1.png" },
+      { "value": 3,  "label": "Строительство", "img": "/pic/80_pic2.png" },
+      { "value": 20,  "label": "Цифровизация",  "img": "/pic/80_pic3.png" },
+      { "value": 33,  "label": "Всего проектов", "total": true }
+    ],
+    "skillGroups": [
+      {
+        "title": "Design Soft",
+        "items": [
+          { "label": "Photo...",  "percent": 7, "icon": "/icon/photoshop.png" },
+          { "label": "Visio",     "percent": 85, "icon": "/icon/visio.png" },
+          { "label": "Illus...",  "percent": 23, "icon": "/icon/illustrator.png" },
+          { "label": "Figma",     "percent": 49, "icon": "/icon/figma.png" },
+          { "label": "Blender",   "percent": 38, "icon": "/icon/blender.png" }
+        ]
+      },
+      {
+        "title": "Programming",
+        "items": [
+          { "label": "HTML5",  "percent": 58, "icon": "/icon/HTML5.svg" },
+          { "label": "React",  "percent": 24, "icon": "/icon/React.svg" },
+          { "label": "Python", "percent": 41, "icon": "/icon/Python.svg" },
+          { "label": "Node.js","percent": 79, "icon": "/icon/Node.svg" },
+          { "label": "Github", "percent": 73, "icon": "/icon/github.svg" }
+        ]
+      },
+      {
+        "title": "MS / Office",
+        "items": [
+          { "label": "Excel",    "percent": 94, "icon": "/icon/Excel.svg"      },
+          { "label": "Word",     "percent": 33, "icon": "/icon/Word.svg"       },
+          { "label": "PowerP" ,  "percent": 88, "icon": "/icon/powerpoint.png" },
+          { "label": "PowerB",   "percent": 9, "icon": "/icon/Power.svg"      },
+          { "label": "Project",  "percent": 47, "icon": "/icon/project.png"    }
+        ]
+      },
+      {
+        "title": "Engineering",
+        "items": [
+          { "label": "AuCAD",   "percent": 11, "icon": "/icon/autocad.png"    },
+          { "label": "SolidW",  "percent": 27, "icon": "/icon/solidworks.png" },
+          { "label": "Kom3D" ,  "percent": 36, "icon": "/icon/compass.png"    },
+          { "label": "Matlab",  "percent": 20, "icon": "/icon/matlab.svg"     },
+          { "label": "Abaqus",  "percent": 13, "icon": "/icon/abaqus.png"     }
+        ]
+      },
+      {
+        "title": "Languages",
+        "items": [
+          { "label": "English", "percent": 69, "icon": "/icon/EN.png"  },
+          { "label": "German",  "percent": 62, "icon": "/icon/GER.png" },
+          { "label": "Spanish" ,"percent": 17, "icon": "/icon/HES.png" },
+          { "label": "Chinese", "percent": 92, "icon": "/icon/CH.png"  },
+          { "label": "French",  "percent": 66, "icon": "/icon/FR.png"  }
+        ]
+      }
+    ],
+    
+    "contactBar": {
+      "name": "Fritz Steuber",
+      "role": "UX Copywriter",
+      "avatar": "/public/images/id-68-200-300.jpg",
+      "siteUrl": "#",
+      "primaryPhone": "1-116-066-7549 x6719",
+      "primaryEmail": "mail@primary.com",
+      "secondaryPhone": "+7 (999) 111-11-11",
+      "secondaryEmail": "mail@secondary.com",
+      "socials": [
+        { "name": "Telegram", "url": "#", "icon": "/icon/soc/telegram.svg" },
+        { "name": "Twitter",  "url": "#", "icon": "/icon/soc/twitter.svg" },
+        { "name": "LinkedIn", "url": "#", "icon": "/icon/soc/linkedin.svg" }
+      ],
+      "portfolio": [
+        { "name": "GitHub",   "url": "#", "icon": "/icon/soc/github1.svg" },
+        { "name": "Behance",  "url": "#", "icon": "/icon/soc/behance.svg" },
+        { "name": "Dribbble", "url": "#", "icon": "/icon/soc/dribbble.svg" }
+      ]
+    }
+  },
+  
+    "info": {
+      "books": ["Миф о Сизифе — Альбер Камю", "Бытие и время — Хайдеггер", "Антихрист — Ницше"],
+      "movies": ["Меланхолия", "Дерево жизни", "Солярис"],
+      "music": ["Sigur Rós — Svefn-g-englar", "Bonobo — Kerala", "M83 — Outro"],
+      "hobbies": ["Фотография", "Поэзия", "Пешие походы"]
+    }
+  
+  },
+
+  {
+    "id": "2ac1562d-86bb-481d-a293-f052ce2e1f7d",
+    "address": "Apt. 061",
+    "birthday": "Sat Jun 25 2022",
+    "name": "Sydnee Littel",
+    "phone": "750.991.9061 x356",
+    "photo": "/public/images/id-604-200-300.jpg",
+
+    "timeline": {
+      "edu": [
+        { "year": "2012–2016", "role": "Бакалавр, Fine Arts", "place": "Лондон", "desc": "Digital Media и UI" },
+        { "year": "2016–2017", "role": "Курс, Web Design", "place": "General Assembly", "desc": "UX/UI инструменты" }
+      ],
+
+      "exp": [
+        { "year": "2017–2019", "role": "Visual Designer", "place": "Creative Agency", "desc": "Иллюстрации и интерфейсы" },
+        { "year": "2019–2022", "role": "Product Designer", "place": "E-commerce", "desc": "Онлайн-шопинг UX" },
+        { "year": "2022–н.в.", "role": "Senior UI Designer", "place": "Marketplace", "desc": "Визуальный стиль и дизайн-система" }
+      ]
+    },
+
+  "dashboard": {
+    "stats": [
+      { "value": 11,  "label": "Энергетика",   "img": "/pic/80_pic1.png" },
+      { "value": 9,  "label": "Строительство", "img": "/pic/80_pic2.png" },
+      { "value": 6,  "label": "Цифровизация",  "img": "/pic/80_pic3.png" },
+      { "value": 26,  "label": "Всего проектов", "total": true }
+    ],
+    "skillGroups": [
+      {
+        "title": "Design Soft",
+        "items": [
+          { "label": "Photo...",  "percent": 18, "icon": "/icon/photoshop.png" },
+          { "label": "Visio",     "percent": 62, "icon": "/icon/visio.png" },
+          { "label": "Illus...",  "percent": 7, "icon": "/icon/illustrator.png" },
+          { "label": "Figma",     "percent": 35, "icon": "/icon/figma.png" },
+          { "label": "Blender",   "percent": 41, "icon": "/icon/blender.png" }
+        ]
+      },
+      {
+        "title": "Programming",
+        "items": [
+          { "label": "HTML5",  "percent": 83, "icon": "/icon/HTML5.svg" },
+          { "label": "React",  "percent": 11, "icon": "/icon/React.svg" },
+          { "label": "Python", "percent": 69, "icon": "/icon/Python.svg" },
+          { "label": "Node.js","percent": 28, "icon": "/icon/Node.svg" },
+          { "label": "Github", "percent": 85, "icon": "/icon/github.svg" }
+        ]
+      },
+      {
+        "title": "MS / Office",
+        "items": [
+          { "label": "Excel",    "percent": 46, "icon": "/icon/Excel.svg"      },
+          { "label": "Word",     "percent": 37, "icon": "/icon/Word.svg"       },
+          { "label": "PowerP" ,  "percent": 44, "icon": "/icon/powerpoint.png" },
+          { "label": "PowerB",   "percent": 64, "icon": "/icon/Power.svg"      },
+          { "label": "Project",  "percent": 2, "icon": "/icon/project.png"    }
+        ]
+      },
+      {
+        "title": "Engineering",
+        "items": [
+          { "label": "AuCAD",   "percent": 27, "icon": "/icon/autocad.png"    },
+          { "label": "SolidW",  "percent": 50, "icon": "/icon/solidworks.png" },
+          { "label": "Kom3D" ,  "percent": 31, "icon": "/icon/compass.png"    },
+          { "label": "Matlab",  "percent": 23, "icon": "/icon/matlab.svg"     },
+          { "label": "Abaqus",  "percent": 17, "icon": "/icon/abaqus.png"     }
+        ]
+      },
+      {
+        "title": "Languages",
+        "items": [
+          { "label": "English", "percent": 91, "icon": "/icon/EN.png"  },
+          { "label": "German",  "percent": 19, "icon": "/icon/GER.png" },
+          { "label": "Spanish" ,"percent": 56, "icon": "/icon/HES.png" },
+          { "label": "Chinese", "percent": 93, "icon": "/icon/CH.png"  },
+          { "label": "French",  "percent": 59, "icon": "/icon/FR.png"  }
+        ]
+      }
+    ],
+    
+    "contactBar": {
+      "name": "Sydnee Littel",
+      "role": "Accessibility Designer",
+      "avatar": "/public/images/id-604-200-300.jpg",
+      "siteUrl": "#",
+      "primaryPhone": "750.991.9061 x356",
+      "primaryEmail": "mail@primary.com",
+      "secondaryPhone": "+7 (999) 111-11-11",
+      "secondaryEmail": "mail@secondary.com",
+      "socials": [
+        { "name": "Telegram", "url": "#", "icon": "/icon/soc/telegram.svg" },
+        { "name": "Twitter",  "url": "#", "icon": "/icon/soc/twitter.svg" },
+        { "name": "LinkedIn", "url": "#", "icon": "/icon/soc/linkedin.svg" }
+      ],
+      "portfolio": [
+        { "name": "GitHub",   "url": "#", "icon": "/icon/soc/github1.svg" },
+        { "name": "Behance",  "url": "#", "icon": "/icon/soc/behance.svg" },
+        { "name": "Dribbble", "url": "#", "icon": "/icon/soc/dribbble.svg" }
+      ]
+    }
+  },
+  
+    "info": {
+      "books": ["Zero to One — Питер Тиль", "Lean Startup — Э. Рис", "Measure What Matters — Джон Доэр"],
+      "movies": ["Основатель", "Социальная дилемма", "Поймай меня, если сможешь"],
+      "music": ["Kanye West — Stronger", "Pharrell — Happy", "Avicii — Levels"],
+      "hobbies": ["Бизнес-анализ", "Маркетинг", "Сноубординг"]
+    }
+  
+  },
+
+  {
+    "id": "24145cba-fe1c-477e-83a0-a0c4063f5c92",
+    "address": "Apt. 414",
+    "birthday": "Thu Apr 13 2023",
+    "name": "Patience Kautzer",
+    "phone": "332-441-7883",
+    "photo": "/public/images/id-19-200-300.jpg",
+
+    "timeline": {
+      "edu": [
+        { "year": "2010–2014", "role": "Бакалавр, Менеджмент", "place": "СПбГУ", "desc": "Проектное управление и UX" },
+        { "year": "2018", "role": "Курс, Product Design", "place": "Design Academy", "desc": "Продуктовое мышление" }
+      ],
+
+      "exp": [
+        { "year": "2014–2018", "role": "Project Manager", "place": "IT Integrator", "desc": "Цифровые решения и UX" },
+        { "year": "2018–2022", "role": "Product Designer", "place": "Startup Lab", "desc": "MVP и пользовательские сценарии" },
+        { "year": "2022–н.в.", "role": "Lead Product Designer", "place": "CorpX", "desc": "B2B продукты и CJM" }
+        ]
+    },
+
+  "dashboard": {
+    "stats": [
+      { "value": 15,  "label": "Энергетика",   "img": "/pic/80_pic1.png" },
+      { "value": 4,  "label": "Строительство", "img": "/pic/80_pic2.png" },
+      { "value": 13,  "label": "Цифровизация",  "img": "/pic/80_pic3.png" },
+      { "value": 32,  "label": "Всего проектов", "total": true }
+    ],
+    "skillGroups": [
+      {
+        "title": "Design Soft",
+        "items": [
+          { "label": "Photo...",  "percent": 92, "icon": "/icon/photoshop.png" },
+          { "label": "Visio",     "percent": 64, "icon": "/icon/visio.png" },
+          { "label": "Illus...",  "percent": 80, "icon": "/icon/illustrator.png" },
+          { "label": "Figma",     "percent": 42, "icon": "/icon/figma.png" },
+          { "label": "Blender",   "percent": 36, "icon": "/icon/blender.png" }
+        ]
+      },
+      {
+        "title": "Programming",
+        "items": [
+          { "label": "HTML5",  "percent": 6, "icon": "/icon/HTML5.svg" },
+          { "label": "React",  "percent": 9, "icon": "/icon/React.svg" },
+          { "label": "Python", "percent": 29, "icon": "/icon/Python.svg" },
+          { "label": "Node.js","percent": 94, "icon": "/icon/Node.svg" },
+          { "label": "Github", "percent": 59, "icon": "/icon/github.svg" }
+        ]
+      },
+      {
+        "title": "MS / Office",
+        "items": [
+          { "label": "Excel",    "percent": 47, "icon": "/icon/Excel.svg"      },
+          { "label": "Word",     "percent": 23, "icon": "/icon/Word.svg"       },
+          { "label": "PowerP" ,  "percent": 78, "icon": "/icon/powerpoint.png" },
+          { "label": "PowerB",   "percent": 19, "icon": "/icon/Power.svg"      },
+          { "label": "Project",  "percent": 2, "icon": "/icon/project.png"    }
+        ]
+      },
+      {
+        "title": "Engineering",
+        "items": [
+          { "label": "AuCAD",   "percent": 55, "icon": "/icon/autocad.png"    },
+          { "label": "SolidW",  "percent": 38, "icon": "/icon/solidworks.png" },
+          { "label": "Kom3D" ,  "percent": 24, "icon": "/icon/compass.png"    },
+          { "label": "Matlab",  "percent": 62, "icon": "/icon/matlab.svg"     },
+          { "label": "Abaqus",  "percent": 10, "icon": "/icon/abaqus.png"     }
+        ]
+      },
+      {
+        "title": "Languages",
+        "items": [
+          { "label": "English", "percent": 33, "icon": "/icon/EN.png"  },
+          { "label": "German",  "percent": 71, "icon": "/icon/GER.png" },
+          { "label": "Spanish" ,"percent": 52, "icon": "/icon/HES.png" },
+          { "label": "Chinese", "percent": 24, "icon": "/icon/CH.png"  },
+          { "label": "French",  "percent": 55, "icon": "/icon/FR.png"  }
+        ]
+      }
+    ],
+    
+    "contactBar": {
+      "name": "Patience Kautzer",
+      "role": "Motion UI Designer",
+      "avatar": "/public/images/id-19-200-300.jpg",
+      "siteUrl": "#",
+      "primaryPhone": "332-441-7883",
+      "primaryEmail": "mail@primary.com",
+      "secondaryPhone": "+7 (999) 111-11-11",
+      "secondaryEmail": "mail@secondary.com",
+      "socials": [
+        { "name": "Telegram", "url": "#", "icon": "/icon/soc/telegram.svg" },
+        { "name": "Twitter",  "url": "#", "icon": "/icon/soc/twitter.svg" },
+        { "name": "LinkedIn", "url": "#", "icon": "/icon/soc/linkedin.svg" }
+      ],
+      "portfolio": [
+        { "name": "GitHub",   "url": "#", "icon": "/icon/soc/github1.svg" },
+        { "name": "Behance",  "url": "#", "icon": "/icon/soc/behance.svg" },
+        { "name": "Dribbble", "url": "#", "icon": "/icon/soc/dribbble.svg" }
+      ]
+    }
+  },
+  
+    "info": {
+      "books": ["Преступление и наказание — Ф. Достоевский", "Герой нашего времени — М. Лермонтов", "Сто лет одиночества — Г. Г. Маркес"],
+      "movies": ["Остров", "Левиафан", "12"],
+      "music": ["Би-2 — Варвара", "Сплин — Мое сердце", "Zemfira — Искала"],
+      "hobbies": ["Писательство", "Фотография", "История"]
+    }
+  
+  },
+
+  {
+    "id": "d97eb312-c502-48aa-b8d6-a427b8950ce1",
+    "address": "Suite 383",
+    "birthday": "Thu Oct 13 2022",
+    "name": "Esmeralda Smitham",
+    "phone": "1-935-199-5444",
+    "photo": "/public/images/id-159-200-300.jpg",
+
+    "timeline": {
+      "edu": [
+        { "year": "2011–2015", "role": "Бакалавр, Журналистика", "place": "РГГУ", "desc": "Медиа и коммуникации" },
+        { "year": "2019", "role": "Курс, UX Writing", "place": "Coursera", "desc": "Тексты интерфейсов и UX Flow" }
+      ],
+
+      "exp": [
+        { "year": "2015–2019", "role": "Editor", "place": "Online Media", "desc": "Редактура и сторителлинг" },
+        { "year": "2019–2022", "role": "UX Writer", "place": "Tech Company", "desc": "Тексты и информационная архитектура" },
+        { "year": "2022–н.в.", "role": "Senior Content Designer", "place": "Banking App", "desc": "UX-коммуникации" }
+        ]
+    },
+
+  "dashboard": {
+    "stats": [
+      { "value": 16,  "label": "Энергетика",   "img": "/pic/80_pic1.png" },
+      { "value": 5,  "label": "Строительство", "img": "/pic/80_pic2.png" },
+      { "value": 8,  "label": "Цифровизация",  "img": "/pic/80_pic3.png" },
+      { "value": 29,  "label": "Всего проектов", "total": true }
+    ],
+    "skillGroups": [
+      {
+        "title": "Design Soft",
+        "items": [
+          { "label": "Photo...",  "percent": 3, "icon": "/icon/photoshop.png" },
+          { "label": "Visio",     "percent": 53, "icon": "/icon/visio.png" },
+          { "label": "Illus...",  "percent": 72, "icon": "/icon/illustrator.png" },
+          { "label": "Figma",     "percent": 15, "icon": "/icon/figma.png" },
+          { "label": "Blender",   "percent": 33, "icon": "/icon/blender.png" }
+        ]
+      },
+      {
+        "title": "Programming",
+        "items": [
+          { "label": "HTML5",  "percent": 45, "icon": "/icon/HTML5.svg" },
+          { "label": "React",  "percent": 16, "icon": "/icon/React.svg" },
+          { "label": "Python", "percent": 25, "icon": "/icon/Python.svg" },
+          { "label": "Node.js","percent": 70, "icon": "/icon/Node.svg" },
+          { "label": "Github", "percent": 55, "icon": "/icon/github.svg" }
+        ]
+      },
+      {
+        "title": "MS / Office",
+        "items": [
+          { "label": "Excel",    "percent": 16, "icon": "/icon/Excel.svg"      },
+          { "label": "Word",     "percent": 88, "icon": "/icon/Word.svg"       },
+          { "label": "PowerP" ,  "percent": 41, "icon": "/icon/powerpoint.png" },
+          { "label": "PowerB",   "percent": 60, "icon": "/icon/Power.svg"      },
+          { "label": "Project",  "percent": 8, "icon": "/icon/project.png"    }
+        ]
+      },
+      {
+        "title": "Engineering",
+        "items": [
+          { "label": "AuCAD",   "percent": 91, "icon": "/icon/autocad.png"    },
+          { "label": "SolidW",  "percent": 12, "icon": "/icon/solidworks.png" },
+          { "label": "Kom3D" ,  "percent": 5, "icon": "/icon/compass.png"    },
+          { "label": "Matlab",  "percent": 7, "icon": "/icon/matlab.svg"     },
+          { "label": "Abaqus",  "percent": 68, "icon": "/icon/abaqus.png"     }
+        ]
+      },
+      {
+        "title": "Languages",
+        "items": [
+          { "label": "English", "percent": 64, "icon": "/icon/EN.png"  },
+          { "label": "German",  "percent": 39, "icon": "/icon/GER.png" },
+          { "label": "Spanish" ,"percent": 24, "icon": "/icon/HES.png" },
+          { "label": "Chinese", "percent": 77, "icon": "/icon/CH.png"  },
+          { "label": "French",  "percent": 81, "icon": "/icon/FR.png"  }
+        ]
+      }
+    ],
+    
+    "contactBar": {
+      "name": "Esmeralda Smitham",
+      "role": "Prototyping Specialist",
+      "avatar": "/public/images/id-159-200-300.jpg",
+      "siteUrl": "#",
+      "primaryPhone": "1-935-199-5444",
+      "primaryEmail": "mail@primary.com",
+      "secondaryPhone": "+7 (999) 111-11-11",
+      "secondaryEmail": "mail@secondary.com",
+      "socials": [
+        { "name": "Telegram", "url": "#", "icon": "/icon/soc/telegram.svg" },
+        { "name": "Twitter",  "url": "#", "icon": "/icon/soc/twitter.svg" },
+        { "name": "LinkedIn", "url": "#", "icon": "/icon/soc/linkedin.svg" }
+      ],
+      "portfolio": [
+        { "name": "GitHub",   "url": "#", "icon": "/icon/soc/github1.svg" },
+        { "name": "Behance",  "url": "#", "icon": "/icon/soc/behance.svg" },
+        { "name": "Dribbble", "url": "#", "icon": "/icon/soc/dribbble.svg" }
+      ]
+    }
+  },
+  
+    "info": {
+      "books": ["Гарри Поттер — Дж. Роулинг", "Хроники Нарнии — К. С. Льюис", "Властелин колец — Дж. Р. Р. Толкин"],
+      "movies": ["Властелин колец", "Гарри Поттер", "Хоббит"],
+      "music": ["Howard Shore — The Shire", "Enya — May It Be", "Ramin Djawadi — Light of the Seven"],
+      "hobbies": ["Фэнтези", "Рисование", "Настольные игры"]
+    }
+  
+  },
+
+  {
+    "id": "2a545508-7e95-4b8e-a827-603dbae0c81f",
+    "address": "Suite 026",
+    "birthday": "Thu May 19 2022",
+    "name": "Addison Rippin",
+    "phone": "(242) 098-2124 x872",
+    "photo": "/public/images/id-43-200-300.jpg",
+
+    "timeline": {
+      "edu": [
+        { "year": "2013–2017", "role": "Бакалавр, Инженерия", "place": "МГТУ им. Баумана", "desc": "Автоматизация систем" },
+        { "year": "2021", "role": "Курс, UI/UX", "place": "Netology", "desc": "Figma, прототипы, A/B тесты" }
+      ],
+
+      "exp": [
+        { "year": "2017–2020", "role": "Инженер-аналитик", "place": "ТЭК Холдинг", "desc": "SCADA, энергетика" },
+        { "year": "2020–2023", "role": "UX/UI Designer", "place": "EnergySoft", "desc": "Интерфейсы аналитики" },
+        { "year": "2023–н.в.", "role": "Senior Product Designer", "place": "Industrial Tech", "desc": "Интерфейсы диспетчеризации" }
+        ]
+    },
+
+  "dashboard": {
+    "stats": [
+      { "value": 17,  "label": "Энергетика",   "img": "/pic/80_pic1.png" },
+      { "value": 10,  "label": "Строительство", "img": "/pic/80_pic2.png" },
+      { "value": 2,  "label": "Цифровизация",  "img": "/pic/80_pic3.png" },
+      { "value": 29,  "label": "Всего проектов", "total": true }
+    ],
+    "skillGroups": [
+      {
+        "title": "Design Soft",
+        "items": [
+          { "label": "Photo...",  "percent": 65, "icon": "/icon/photoshop.png" },
+          { "label": "Visio",     "percent": 8, "icon": "/icon/visio.png" },
+          { "label": "Illus...",  "percent": 76, "icon": "/icon/illustrator.png" },
+          { "label": "Figma",     "percent": 17, "icon": "/icon/figma.png" },
+          { "label": "Blender",   "percent": 42, "icon": "/icon/blender.png" }
+        ]
+      },
+      {
+        "title": "Programming",
+        "items": [
+          { "label": "HTML5",  "percent": 32, "icon": "/icon/HTML5.svg" },
+          { "label": "React",  "percent": 47, "icon": "/icon/React.svg" },
+          { "label": "Python", "percent": 11, "icon": "/icon/Python.svg" },
+          { "label": "Node.js","percent": 98, "icon": "/icon/Node.svg" },
+          { "label": "Github", "percent": 19, "icon": "/icon/github.svg" }
+        ]
+      },
+      {
+        "title": "MS / Office",
+        "items": [
+          { "label": "Excel",    "percent": 79, "icon": "/icon/Excel.svg"      },
+          { "label": "Word",     "percent": 95, "icon": "/icon/Word.svg"       },
+          { "label": "PowerP" ,  "percent": 53, "icon": "/icon/powerpoint.png" },
+          { "label": "PowerB",   "percent": 56, "icon": "/icon/Power.svg"      },
+          { "label": "Project",  "percent": 27, "icon": "/icon/project.png"    }
+        ]
+      },
+      {
+        "title": "Engineering",
+        "items": [
+          { "label": "AuCAD",   "percent": 24, "icon": "/icon/autocad.png"    },
+          { "label": "SolidW",  "percent": 61, "icon": "/icon/solidworks.png" },
+          { "label": "Kom3D" ,  "percent": 2, "icon": "/icon/compass.png"    },
+          { "label": "Matlab",  "percent": 68, "icon": "/icon/matlab.svg"     },
+          { "label": "Abaqus",  "percent": 73, "icon": "/icon/abaqus.png"     }
+        ]
+      },
+      {
+        "title": "Languages",
+        "items": [
+          { "label": "English", "percent": 20, "icon": "/icon/EN.png"  },
+          { "label": "German",  "percent": 30, "icon": "/icon/GER.png" },
+          { "label": "Spanish" ,"percent": 89, "icon": "/icon/HES.png" },
+          { "label": "Chinese", "percent": 45, "icon": "/icon/CH.png"  },
+          { "label": "French",  "percent": 4, "icon": "/icon/FR.png"  }
+        ]
+      }
+    ],
+    
+    "contactBar": {
+      "name": "Addison Rippin",
+      "role": "Service Designer",
+      "avatar": "/public/images/id-43-200-300.jpg",
+      "siteUrl": "#",
+      "primaryPhone": "(242) 098-2124 x872",
+      "primaryEmail": "mail@primary.com",
+      "secondaryPhone": "+7 (999) 111-11-11",
+      "secondaryEmail": "mail@secondary.com",
+      "socials": [
+        { "name": "Telegram", "url": "#", "icon": "/icon/soc/telegram.svg" },
+        { "name": "Twitter",  "url": "#", "icon": "/icon/soc/twitter.svg" },
+        { "name": "LinkedIn", "url": "#", "icon": "/icon/soc/linkedin.svg" }
+      ],
+      "portfolio": [
+        { "name": "GitHub",   "url": "#", "icon": "/icon/soc/github1.svg" },
+        { "name": "Behance",  "url": "#", "icon": "/icon/soc/behance.svg" },
+        { "name": "Dribbble", "url": "#", "icon": "/icon/soc/dribbble.svg" }
+      ]
+    }
+  },
+  
+    "info": {
+      "books": ["Сила привычки — Ч. Дахигг", "Монах, который продал свой Ferrari — Р. Шарма", "Эссенциализм — Грег Маккеон"],
+      "movies": ["Пока не сыграл в ящик", "1+1", "Клайв Баркер: Книга крови"],
+      "music": ["OneRepublic — Counting Stars", "Adele — Skyfall", "Maroon 5 — Memories"],
+      "hobbies": ["Спорт", "Кулинария", "Чтение"]
+    }
+  
+  },
+
+  {
+    "id": "5dd152ab-d6ab-4a71-844c-17c2d7cc7543",
+    "address": "Suite 342",
+    "birthday": "Wed Nov 09 2022",
+    "name": "Mervin Rolfson",
+    "phone": "1-006-874-7703 x47405",
+    "photo": "/public/images/id-174-200-300.jpg",
+
+    "timeline": {
+      "edu": [
+        { "year": "2012–2016", "role": "Бакалавр, Социология", "place": "МГУ", "desc": "Пользовательское поведение" },
+        { "year": "2018–2019", "role": "Курс, UX Research", "place": "Coursera", "desc": "Интервью, юзабилити-тесты" }
+      ],
+
+      "exp": [
+        { "year": "2016–2019", "role": "Аналитик", "place": "Маркетинговое агентство", "desc": "Исследования аудитории" },
+        { "year": "2019–2022", "role": "UX Researcher", "place": "IT Startup", "desc": "Продуктовые гипотезы и UX" },
+        { "year": "2022–н.в.", "role": "Research Lead", "place": "Corp UX Lab", "desc": "Планирование исследований" }
+        ]
+    },
+
+  "dashboard": {
+    "stats": [
+      { "value": 18,  "label": "Энергетика",   "img": "/pic/80_pic1.png" },
+      { "value": 7,  "label": "Строительство", "img": "/pic/80_pic2.png" },
+      { "value": 11,  "label": "Цифровизация",  "img": "/pic/80_pic3.png" },
+      { "value": 36,  "label": "Всего проектов", "total": true }
+    ],
+    "skillGroups": [
+      {
+        "title": "Design Soft",
+        "items": [
+          { "label": "Photo...",  "percent": 96, "icon": "/icon/photoshop.png" },
+          { "label": "Visio",     "percent": 61, "icon": "/icon/visio.png" },
+          { "label": "Illus...",  "percent": 19, "icon": "/icon/illustrator.png" },
+          { "label": "Figma",     "percent": 47, "icon": "/icon/figma.png" },
+          { "label": "Blender",   "percent": 32, "icon": "/icon/blender.png" }
+        ]
+      },
+      {
+        "title": "Programming",
+        "items": [
+          { "label": "HTML5",  "percent": 33, "icon": "/icon/HTML5.svg" },
+          { "label": "React",  "percent": 70, "icon": "/icon/React.svg" },
+          { "label": "Python", "percent": 44, "icon": "/icon/Python.svg" },
+          { "label": "Node.js","percent": 80, "icon": "/icon/Node.svg" },
+          { "label": "Github", "percent": 25, "icon": "/icon/github.svg" }
+        ]
+      },
+      {
+        "title": "MS / Office",
+        "items": [
+          { "label": "Excel",    "percent": 77, "icon": "/icon/Excel.svg"      },
+          { "label": "Word",     "percent": 13, "icon": "/icon/Word.svg"       },
+          { "label": "PowerP" ,  "percent": 53, "icon": "/icon/powerpoint.png" },
+          { "label": "PowerB",   "percent": 18, "icon": "/icon/Power.svg"      },
+          { "label": "Project",  "percent": 94, "icon": "/icon/project.png"    }
+        ]
+      },
+      {
+        "title": "Engineering",
+        "items": [
+          { "label": "AuCAD",   "percent": 22, "icon": "/icon/autocad.png"    },
+          { "label": "SolidW",  "percent": 85, "icon": "/icon/solidworks.png" },
+          { "label": "Kom3D" ,  "percent": 91, "icon": "/icon/compass.png"    },
+          { "label": "Matlab",  "percent": 62, "icon": "/icon/matlab.svg"     },
+          { "label": "Abaqus",  "percent": 6, "icon": "/icon/abaqus.png"     }
+        ]
+      },
+      {
+        "title": "Languages",
+        "items": [
+          { "label": "English", "percent": 9, "icon": "/icon/EN.png"  },
+          { "label": "German",  "percent": 5, "icon": "/icon/GER.png" },
+          { "label": "Spanish" ,"percent": 28, "icon": "/icon/HES.png" },
+          { "label": "Chinese", "percent": 71, "icon": "/icon/CH.png"  },
+          { "label": "French",  "percent": 38, "icon": "/icon/FR.png"  }
+        ]
+      }
+    ],
+    
+    "contactBar": {
+      "name": "Mervin Rolfson",
+      "role": "Mobile UX/UI Designer",
+      "avatar": "/public/images/id-174-200-300.jpg",
+      "siteUrl": "#",
+      "primaryPhone": "1-006-874-7703 x47405",
+      "primaryEmail": "mail@primary.com",
+      "secondaryPhone": "+7 (999) 111-11-11",
+      "secondaryEmail": "mail@secondary.com",
+      "socials": [
+        { "name": "Telegram", "url": "#", "icon": "/icon/soc/telegram.svg" },
+        { "name": "Twitter",  "url": "#", "icon": "/icon/soc/twitter.svg" },
+        { "name": "LinkedIn", "url": "#", "icon": "/icon/soc/linkedin.svg" }
+      ],
+      "portfolio": [
+        { "name": "GitHub",   "url": "#", "icon": "/icon/soc/github1.svg" },
+        { "name": "Behance",  "url": "#", "icon": "/icon/soc/behance.svg" },
+        { "name": "Dribbble", "url": "#", "icon": "/icon/soc/dribbble.svg" }
+      ]
+    }
+  },
+  
+    "info": {
+      "books": ["Воспоминания о будущем — Эрих фон Дэникен", "Код да Винчи — Дэн Браун", "Эон — Грег Беар"],
+      "movies": ["Контакт", "Прибытие", "2001 год: Космическая одиссея"],
+      "music": ["Jean-Michel Jarre — Oxygene", "Pink Floyd — Time", "Alan Parsons — Sirius"],
+      "hobbies": ["Астрономия", "Фантастика", "Исследования"]
+    }
+  
+  },
+  
+  {
+    "id": "a3a09ca9-06f2-46a1-bce0-5a1aab7bf0c5",
+    "address": "Suite 693",
+    "birthday": "Thu Oct 27 2022",
+    "name": "Nicholaus Stiedemann",
+    "phone": "122.830.2532 x374",
+    "photo": "/public/images/id-776-200-300.jpg",
+
+    "timeline": {
+      "edu": [
+        { "year": "2011–2015", "role": "Бакалавр, Дизайн среды", "place": "СПбГУПТД", "desc": "Дизайн и восприятие" },
+        { "year": "2019", "role": "Курс, UI Systems", "place": "Figma Community", "desc": "Design Systems & Tokens" }
+      ],
+
+      "exp": [
+        { "year": "2015–2018", "role": "Junior Designer", "place": "Brand Studio", "desc": "Фирменный стиль и макеты" },
+        { "year": "2018–2022", "role": "UI Designer", "place": "Startup App", "desc": "Компоненты и дизайн-гайды" },
+        { "year": "2022–н.в.", "role": "Design System Specialist", "place": "FinTech", "desc": "Системы компонентов" }
+        ]
+    },
+
+  "dashboard": {
+    "stats": [
+      { "value": 19,  "label": "Энергетика",   "img": "/pic/80_pic1.png" },
+      { "value": 6,  "label": "Строительство", "img": "/pic/80_pic2.png" },
+      { "value": 14,  "label": "Цифровизация",  "img": "/pic/80_pic3.png" },
+      { "value": 39,  "label": "Всего проектов", "total": true }
+    ],
+    "skillGroups": [
+      {
+        "title": "Design Soft",
+        "items": [
+          { "label": "Photo...",  "percent": 58, "icon": "/icon/photoshop.png" },
+          { "label": "Visio",     "percent": 33, "icon": "/icon/visio.png" },
+          { "label": "Illus...",  "percent": 70, "icon": "/icon/illustrator.png" },
+          { "label": "Figma",     "percent": 41, "icon": "/icon/figma.png" },
+          { "label": "Blender",   "percent": 93, "icon": "/icon/blender.png" }
+        ]
+      },
+      {
+        "title": "Programming",
+        "items": [
+          { "label": "HTML5",  "percent": 15, "icon": "/icon/HTML5.svg" },
+          { "label": "React",  "percent": 95, "icon": "/icon/React.svg" },
+          { "label": "Python", "percent": 5, "icon": "/icon/Python.svg" },
+          { "label": "Node.js","percent": 77, "icon": "/icon/Node.svg" },
+          { "label": "Github", "percent": 35, "icon": "/icon/github.svg" }
+        ]
+      },
+      {
+        "title": "MS / Office",
+        "items": [
+          { "label": "Excel",    "percent": 87, "icon": "/icon/Excel.svg"      },
+          { "label": "Word",     "percent": 9, "icon": "/icon/Word.svg"       },
+          { "label": "PowerP" ,  "percent": 50, "icon": "/icon/powerpoint.png" },
+          { "label": "PowerB",   "percent": 18, "icon": "/icon/Power.svg"      },
+          { "label": "Project",  "percent": 25, "icon": "/icon/project.png"    }
+        ]
+      },
+      {
+        "title": "Engineering",
+        "items": [
+          { "label": "AuCAD",   "percent": 27, "icon": "/icon/autocad.png"    },
+          { "label": "SolidW",  "percent": 64, "icon": "/icon/solidworks.png" },
+          { "label": "Kom3D" ,  "percent": 12, "icon": "/icon/compass.png"    },
+          { "label": "Matlab",  "percent": 29, "icon": "/icon/matlab.svg"     },
+          { "label": "Abaqus",  "percent": 73, "icon": "/icon/abaqus.png"     }
+        ]
+      },
+      {
+        "title": "Languages",
+        "items": [
+          { "label": "English", "percent": 46, "icon": "/icon/EN.png"  },
+          { "label": "German",  "percent": 21, "icon": "/icon/GER.png" },
+          { "label": "Spanish" ,"percent": 67, "icon": "/icon/HES.png" },
+          { "label": "Chinese", "percent": 88, "icon": "/icon/CH.png"  },
+          { "label": "French",  "percent": 3, "icon": "/icon/FR.png"  }
+        ]
+      }
+    ],
+    
+    "contactBar": {
+      "name": "Nicholaus Stiedemann",
+      "role": "Web Interface Designer",
+      "avatar": "/public/images/id-776-200-300.jpg",
+      "siteUrl": "#",
+      "primaryPhone": "122.830.2532 x374",
+      "primaryEmail": "mail@primary.com",
+      "secondaryPhone": "+7 (999) 111-11-11",
+      "secondaryEmail": "mail@secondary.com",
+      "socials": [
+        { "name": "Telegram", "url": "#", "icon": "/icon/soc/telegram.svg" },
+        { "name": "Twitter",  "url": "#", "icon": "/icon/soc/twitter.svg" },
+        { "name": "LinkedIn", "url": "#", "icon": "/icon/soc/linkedin.svg" }
+      ],
+      "portfolio": [
+        { "name": "GitHub",   "url": "#", "icon": "/icon/soc/github1.svg" },
+        { "name": "Behance",  "url": "#", "icon": "/icon/soc/behance.svg" },
+        { "name": "Dribbble", "url": "#", "icon": "/icon/soc/dribbble.svg" }
+      ]
+    }
+  },
+  
+    "info": {
+      "books": ["Homo Deus — Юваль Ной Харари", "Искусственный интеллект — Макс Тегмарк", "Цифровой минимализм — Кал Ньюпорт"],
+      "movies": ["Она", "Игра имитации", "Экстаз"],
+      "music": ["Trent Reznor — Hand Covers Bruise", "CHVRCHES — Clearest Blue", "Flume — Never Be Like You"],
+      "hobbies": ["AI", "UX-дизайн", "Футурология"]
+    }
+  
+  },
+
+  {
+    "id": "069081b4-12b8-4bbd-84d2-1715140459c3",
+    "address": "Suite 862",
+    "birthday": "Sat Jan 21 2023",
+    "name": "Kaitlyn Moore",
+    "phone": "771.312.4654 x77737",
+    "photo": "/public/images/id-61-200-300.jpg",
+
+    "timeline": {
+      "edu": [
+        { "year": "2010–2014", "role": "Бакалавр, Математика", "place": "СПбГУ", "desc": "Математическое моделирование" },
+        { "year": "2018–2019", "role": "Курс, Data Visualization", "place": "Coursera", "desc": "UX и визуализация данных" }
+      ],
+
+      "exp": [
+        { "year": "2014–2018", "role": "Data Analyst", "place": "Analytics Co", "desc": "BI, Tableau, визуальные отчеты" },
+        { "year": "2018–2022", "role": "UX Analyst", "place": "FinTech", "desc": "UX-аналитика и CJM" },
+        { "year": "2022–н.в.", "role": "UX Data Designer", "place": "AI Startup", "desc": "Дашборды и визуализация" }
+        ]
+    },
+
+  "dashboard": {
+    "stats": [
+      { "value": 20,  "label": "Энергетика",   "img": "/pic/80_pic1.png" },
+      { "value": 3,  "label": "Строительство", "img": "/pic/80_pic2.png" },
+      { "value": 9,  "label": "Цифровизация",  "img": "/pic/80_pic3.png" },
+      { "value": 32,  "label": "Всего проектов", "total": true }
+    ],
+    "skillGroups": [
+      {
+        "title": "Design Soft",
+        "items": [
+          { "label": "Photo...",  "percent": 72, "icon": "/icon/photoshop.png" },
+          { "label": "Visio",     "percent": 85, "icon": "/icon/visio.png" },
+          { "label": "Illus...",  "percent": 78, "icon": "/icon/illustrator.png" },
+          { "label": "Figma",     "percent": 70, "icon": "/icon/figma.png" },
+          { "label": "Blender",   "percent": 70, "icon": "/icon/blender.png" }
+        ]
+      },
+      {
+        "title": "Programming",
+        "items": [
+          { "label": "HTML5",  "percent": 72, "icon": "/icon/HTML5.svg" },
+          { "label": "React",  "percent": 85, "icon": "/icon/React.svg" },
+          { "label": "Python", "percent": 78, "icon": "/icon/Python.svg" },
+          { "label": "Node.js","percent": 70, "icon": "/icon/Node.svg" },
+          { "label": "Github", "percent": 60, "icon": "/icon/github.svg" }
+        ]
+      },
+      {
+        "title": "MS / Office",
+        "items": [
+          { "label": "Excel",    "percent": 72, "icon": "/icon/Excel.svg"      },
+          { "label": "Word",     "percent": 85, "icon": "/icon/Word.svg"       },
+          { "label": "PowerP" ,  "percent": 78, "icon": "/icon/powerpoint.png" },
+          { "label": "PowerB",   "percent": 70, "icon": "/icon/Power.svg"      },
+          { "label": "Project",  "percent": 60, "icon": "/icon/project.png"    }
+        ]
+      },
+      {
+        "title": "Engineering",
+        "items": [
+          { "label": "AuCAD",   "percent": 72, "icon": "/icon/autocad.png"    },
+          { "label": "SolidW",  "percent": 85, "icon": "/icon/solidworks.png" },
+          { "label": "Kom3D" ,  "percent": 78, "icon": "/icon/compass.png"    },
+          { "label": "Matlab",  "percent": 70, "icon": "/icon/matlab.svg"     },
+          { "label": "Abaqus",  "percent": 60, "icon": "/icon/abaqus.png"     }
+        ]
+      },
+      {
+        "title": "Languages",
+        "items": [
+          { "label": "English", "percent": 72, "icon": "/icon/EN.png"  },
+          { "label": "German",  "percent": 85, "icon": "/icon/GER.png" },
+          { "label": "Spanish" ,"percent": 78, "icon": "/icon/HES.png" },
+          { "label": "Chinese", "percent": 70, "icon": "/icon/CH.png"  },
+          { "label": "French",  "percent": 60, "icon": "/icon/FR.png"  }
+        ]
+      }
+    ],
+    
+    "contactBar": {
+      "name": "Kaitlyn Moore",
+      "role": "User Experience Analyst",
+      "avatar": "/public/images/id-61-200-300.jpg",
+      "siteUrl": "#",
+      "primaryPhone": "771.312.4654 x77737",
+      "primaryEmail": "mail@primary.com",
+      "secondaryPhone": "+7 (999) 111-11-11",
+      "secondaryEmail": "mail@secondary.com",
+      "socials": [
+        { "name": "Telegram", "url": "#", "icon": "/icon/soc/telegram.svg" },
+        { "name": "Twitter",  "url": "#", "icon": "/icon/soc/twitter.svg" },
+        { "name": "LinkedIn", "url": "#", "icon": "/icon/soc/linkedin.svg" }
+      ],
+      "portfolio": [
+        { "name": "GitHub",   "url": "#", "icon": "/icon/soc/github1.svg" },
+        { "name": "Behance",  "url": "#", "icon": "/icon/soc/behance.svg" },
+        { "name": "Dribbble", "url": "#", "icon": "/icon/soc/dribbble.svg" }
+      ]
+    }
+  },
+  
+    "info": {
+      "books": ["Atlas Shrugged — Айн Рэнд", "Стив Джобс — Уолтер Айзексон", "Всё сложно — Марк Мэнсон"],
+      "movies": ["Волк с Уолл-стрит", "Поймай меня, если сможешь", "Форд против Феррари"],
+      "music": ["AC/DC — Thunderstruck", "The Rolling Stones — Paint It Black", "Foo Fighters — Best of You"],
+      "hobbies": ["Автоспорт", "Путешествия", "Предпринимательство"]
+    }
+  
+  }
+]

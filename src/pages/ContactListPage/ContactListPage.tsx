@@ -4,17 +4,26 @@
 //onSubmit фильтрует список и вызывает setContacts(findContacts).
 //React рендерит только те карточки, которые прошли фильтр.
 
-import React, { memo, useState } from "react";
+import React, { memo, useEffect, useState } from "react";
 import { ContactCard } from "@/components/ContactCard/ContactCard";
 import { FilterForm, FilterFormValues } from "@/components/FilterForm/FilterForm";
 import { ContactDto } from "@/types";
-import { useAppSelector } from "@/redux/hooks";
 import "./ContactListPage.css";
+import { useGetContactsQuery, useGetGroupsQuery } from "@/services/contactsApi";
 
 export const ContactListPage = memo(() => {
-  const contactsAll = useAppSelector((state) => state.contacts.list);
-  const groups = useAppSelector((state) => state.groups.list);
+  // const contactsAll = useAppSelector((state) => state.contacts.list);
+  // const groups = useAppSelector((state) => state.groups.list);
+  const { data: contactsAll = [], isLoading: isContactsLoading, isError: isContactsError } = useGetContactsQuery();
+  const { data: groups = [], isLoading: isGroupsLoading, isError: isGroupsError } = useGetGroupsQuery();
   const [contacts, setContacts] = useState<ContactDto[]>(contactsAll);
+
+  useEffect(() => {
+    setContacts(contactsAll);
+  }, [contactsAll]);
+
+  if (isContactsLoading || isGroupsLoading) return <p>Загрузка…</p>;
+  if (isContactsError || isGroupsError) return <p>Не удалось загрузить данные</p>;
 
   const onSubmit = (fv: FilterFormValues) => {
     let findContacts: ContactDto[] = contactsAll;

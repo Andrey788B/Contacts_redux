@@ -3,13 +3,14 @@
 
 import React, { memo } from 'react';
 import { Col, Row } from 'react-bootstrap';
-
-import { useAppSelector } from '@/redux/hooks';
-import { groupsSelectors } from '@/redux/slices/groupsSlice';
 import { GroupContactsCard } from '@/components/GroupContactsCard';
+import { useGetGroupsQuery } from '@/services/contactsApi';
 
 export const GroupListPage = memo(() => {
-  const groupContactsList = useAppSelector(groupsSelectors.selectAll);
+  // const groupContactsList = useAppSelector(groupsSelectors.selectAll);
+  const { data: groupContactsList = [], isLoading, isError } = useGetGroupsQuery();
+  if (isLoading) return <p>Загрузка…</p>;
+  if (isError) return <p>Не удалось загрузить группы</p>;
 
   return (
     <Row xxl={4}>

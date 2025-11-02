@@ -3,12 +3,10 @@ import "./ContactPage.css";
 import TimelineCard from "@/components/TimelineCard";
 
 import { useParams } from "react-router-dom";
-import { useAppSelector } from "@/redux/hooks";
-import { contactsSelectors } from "@/redux/slices/contactsSlice";
-
 import type { Slide, Stat, SkillItem, SkillGroup, MeterProps, SkillBadgeProps, SkillColumnProps, ContactBarData } from "@/types";
 import type { TimelineData } from "@/types/components/TimelineCard";
 import type { ContactPageParams } from "@/types";
+import { useGetContactsQuery } from "@/services/contactsApi";
 
 
 const Meter: React.FC<MeterProps> = ({ percent, ariaLabel }) => {
@@ -63,7 +61,11 @@ export const ContactPage: React.FC = () => {
   const { contactId } = useParams<ContactPageParams>();
   if (!contactId) return null;
 
-  const contact = useAppSelector((s) => contactsSelectors.selectById(s, contactId));
+  // const contact = useAppSelector((s) => contactsSelectors.selectById(s, contactId));
+  const { data: contacts = [], isLoading, isError } = useGetContactsQuery();
+  const contact = useMemo(() => contacts.find(c => c.id === contactId), [contacts, contactId]);
+  if (isLoading) return <p>Загрузка…</p>;
+  if (isError || !contact) return <p>Контакт не найден</p>;
 
   const timelineItems: TimelineData | undefined = contact?.timeline;
   const hasTimeline =

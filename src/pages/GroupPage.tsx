@@ -4,33 +4,44 @@
 //ниже — сетку контактов, входящих в группу (ContactCard),
 //если группа не найдена — рендерит Empty
 
-import React, { memo, useMemo } from 'react';
-import { Col, Row } from 'react-bootstrap';
-import { useParams } from 'react-router-dom';
+import React, { useMemo, useEffect } from "react";
+import { Col, Row } from "react-bootstrap";
+import { useParams } from "react-router-dom";
 
-import { GroupContactsCard } from '@/components/GroupContactsCard';
-import { ContactCard } from '@/components/ContactCard/ContactCard';
-import { Empty } from '@/components/Empty';
-import { useGetContactsQuery, useGetGroupsQuery } from '@/services/contactsApi';
+import { GroupContactsCard } from "@/components/GroupContactsCard";
+import { ContactCard } from "@/components/ContactCard/ContactCard";
+import { Empty } from "@/components/Empty";
+import { observer } from "mobx-react-lite";
+import { useContactsStore } from "@/stores/rootStore";
 
-export const GroupPage = memo(() => {
+export const GroupPage = observer(() => {
   const { groupId = "" } = useParams<{ groupId: string }>();
+  const contactsStore = useContactsStore();
 
-  const { data: groups = [], isLoading: gL, isError: gE } = useGetGroupsQuery();
-  const { data: allContacts = [], isLoading: cL, isError: cE } = useGetContactsQuery();
+  const {
+    groups,
+    contacts: allContacts,
+    isGroupsLoading: gL,
+    isContactsLoading: cL,
+    groupsError: gE,
+    contactsError: cE,
+  } = contactsStore;
+
+  useEffect(() => {
+    contactsStore.fetchGroups();
+    contactsStore.fetchContacts();
+  }, [contactsStore]);
 
   if (gL || cL) return <p>Загрузка…</p>;
   if (gE || cE) return <p>Ошибка загрузки</p>;
 
-  const groupContacts = groups.find(g => g.id === groupId);
+  const groupContacts = groups.find((g) => g.id === groupId);
+
   const contacts = useMemo(() => {
     if (!groupContacts?.contactIds?.length) return [];
     const set = new Set(groupContacts.contactIds);
-    return allContacts.filter(c => set.has(c.id));
+    return allContacts.filter((c) => set.has(c.id));
   }, [groupContacts, allContacts]);
-
-  if (cL || gL) return <p>Загрузка…</p>;
-  if (cE || gE) return <p>Ошибка загрузки</p>;
 
   return (
     <Row className="g-4">
@@ -46,7 +57,7 @@ export const GroupPage = memo(() => {
 
           <Col>
             <Row xxl={4} className="g-4">
-              {contacts.map(contact => (
+              {contacts.map((contact) => (
                 <Col key={contact.id}>
                   <ContactCard contact={contact} withLink />
                 </Col>

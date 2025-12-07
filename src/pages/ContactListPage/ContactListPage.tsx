@@ -9,22 +9,29 @@ import { ContactCard } from "@/components/ContactCard/ContactCard";
 import { FilterForm, FilterFormValues } from "@/components/FilterForm/FilterForm";
 import { ContactDto } from "@/types";
 import "./ContactListPage.css";
+import { useContactsStore } from "@/stores/rootStore";
 import { useGetContactsQuery, useGetGroupsQuery } from "@/services/contactsApi";
+import { observer } from "mobx-react-lite";
 
-export const ContactListPage = memo(() => {
-  // const contactsAll = useAppSelector((state) => state.contacts.list);
-  // const groups = useAppSelector((state) => state.groups.list);
-  const { data: contactsAll = [], isLoading: isContactsLoading, isError: isContactsError } = useGetContactsQuery();
-  const { data: groups = [], isLoading: isGroupsLoading, isError: isGroupsError } = useGetGroupsQuery();
+export const ContactListPage: React.FC = observer(() => {
+
+    const contactsStore = useContactsStore();
+  const { contacts: contactsAll, groups } = contactsStore;
+
   const [contacts, setContacts] = useState<ContactDto[]>(contactsAll);
 
   useEffect(() => {
     setContacts(contactsAll);
   }, [contactsAll]);
 
-  if (isContactsLoading || isGroupsLoading) return <p>Загрузка…</p>;
-  if (isContactsError || isGroupsError) return <p>Не удалось загрузить данные</p>;
+    if (contactsStore.isContactsLoading || contactsStore.isGroupsLoading) {
+    return <p>Загрузка…</p>;
+  }
 
+  if (contactsStore.contactsError || contactsStore.groupsError) {
+    return <p>Не удалось загрузить данные</p>;
+  }
+  
   const onSubmit = (fv: FilterFormValues) => {
     let findContacts: ContactDto[] = contactsAll;
 

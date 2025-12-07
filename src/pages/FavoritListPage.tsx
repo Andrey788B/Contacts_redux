@@ -1,19 +1,27 @@
-//Она берёт из favoriteContactsState список id избранных пользователей и по этим id фильтрует все контакты из contactsState.
-//Нет возможности добавки и удаления избранных 
 
-import React, { memo, useMemo } from 'react';
+import React, { memo, useMemo, useEffect } from 'react';
 import { Row, Col } from 'react-bootstrap';
-
+import { observer } from "mobx-react-lite";
 import { useAppSelector } from '@/redux/hooks';
 import { ContactCard } from '@/components/ContactCard/ContactCard';
 import { useGetContactsQuery } from '@/services/contactsApi';
+import { useFavoritesStore, useContactsStore } from "@/stores/rootStore";
 
-export const FavoritListPage = memo(() => {
-  const favoriteIds = useAppSelector((s) => s.favorites.ids);
-  const { data: allContacts = [], isLoading, isError } = useGetContactsQuery();
+export const FavoritListPage: React.FC = observer(() => {
+  const favoritesStore = useFavoritesStore();
+  const contactsStore = useContactsStore();
 
-  if (isLoading) return <p>Загрузка…</p>;
-  if (isError) return <p>Не удалось загрузить контакты</p>;
+  const favoriteIds = favoritesStore.ids;
+
+  useEffect(() => {
+    contactsStore.fetchContacts();
+  }, [contactsStore]);
+
+  if (contactsStore.isContactsLoading) return <p>Загрузка…</p>;
+  if (contactsStore.contactsError)
+    return <p>Не удалось загрузить контакты</p>;
+
+  const allContacts = contactsStore.contacts;
 
   const contacts = useMemo(() => {
     if (!favoriteIds.length) return [];

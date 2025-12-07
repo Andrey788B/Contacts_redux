@@ -1,12 +1,22 @@
-import React, { useMemo, useState } from "react";
+import React, { useMemo, useEffect, useState } from "react";
 import "./ContactPage.css";
 import TimelineCard from "@/components/TimelineCard";
 
 import { useParams } from "react-router-dom";
-import type { Slide, Stat, SkillItem, SkillGroup, MeterProps, SkillBadgeProps, SkillColumnProps, ContactBarData } from "@/types";
+import type {
+  Slide,
+  Stat,
+  SkillItem,
+  SkillGroup,
+  MeterProps,
+  SkillBadgeProps,
+  SkillColumnProps,
+  ContactBarData,
+} from "@/types";
 import type { TimelineData } from "@/types/components/TimelineCard";
 import type { ContactPageParams } from "@/types";
-import { useGetContactsQuery } from "@/services/contactsApi";
+import { observer } from "mobx-react-lite";
+import { useContactsStore } from "@/stores/rootStore";
 
 
 const Meter: React.FC<MeterProps> = ({ percent, ariaLabel }) => {
@@ -56,16 +66,24 @@ const SkillColumn: React.FC<SkillColumnProps> = ({ group, className }) => {
 };
 
 
-export const ContactPage: React.FC = () => {
+export const ContactPage: React.FC = observer(() => {
 
   const { contactId } = useParams<ContactPageParams>();
+  const contactsStore = useContactsStore();
+
+  useEffect(() => {
+    contactsStore.fetchContacts();
+  }, [contactsStore]);
+
   if (!contactId) return null;
 
-  // const contact = useAppSelector((s) => contactsSelectors.selectById(s, contactId));
-  const { data: contacts = [], isLoading, isError } = useGetContactsQuery();
-  const contact = useMemo(() => contacts.find(c => c.id === contactId), [contacts, contactId]);
-  if (isLoading) return <p>Загрузка…</p>;
-  if (isError || !contact) return <p>Контакт не найден</p>;
+ const contact = useMemo(
+    () => contactsStore.getContactById(contactId),
+    [contactsStore, contactId, contactsStore.contacts.length]
+  );
+ 
+  if (contactsStore.isContactsLoading) return <p>Загрузка…</p>;
+  if (contactsStore.contactsError || !contact) return <p>Контакт не найден</p>;
 
   const timelineItems: TimelineData | undefined = contact?.timeline;
   const hasTimeline =
@@ -293,4 +311,4 @@ const slides = useMemo<Slide[]>(() => {
       </main>
     </div>
   );
-};
+});

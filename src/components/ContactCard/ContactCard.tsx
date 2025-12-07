@@ -1,27 +1,25 @@
-import React, { memo } from 'react';
-import { ContactDto } from '@/types';
-import { Link } from 'react-router-dom';
-import './ContactCard.css';
-import { useAppDispatch, useAppSelector } from '@/redux/hooks';
-import { toggleFavorite } from '@/redux/slices/favoritesSlice';
+import React from "react";
+import { ContactDto } from "@/types";
+import { Link } from "react-router-dom";
+import "./ContactCard.css";
+import { observer } from "mobx-react-lite";
+import { useFavoritesStore } from "@/stores/rootStore";
 
 interface ContactCardProps {
-   contact: ContactDto;
-   withLink?: boolean;
+  contact: ContactDto;
+  withLink?: boolean;
 }
 
-export const ContactCard = memo<ContactCardProps>(({ contact, withLink }) => {
-  const { id, name, photo, phone, birthday, address } = contact;
+export const ContactCard = observer(
+  ({ contact, withLink }: ContactCardProps) => {
+    const { id, name, photo, phone, birthday, address } = contact;
 
-  const dispatch = useAppDispatch();
+    const favoritesStore = useFavoritesStore();
+    const isFav = favoritesStore.isFavorite(id);
 
-  const favoriteIds = useAppSelector((s) => s.favorites?.ids ?? []);
-  const isFav = favoriteIds.includes(id)
-
-
-  const handleKebab = () => {
-    dispatch(toggleFavorite(id));
-  };
+    const handleKebab = () => {
+      favoritesStore.toggleFavorite(id);
+    };
 
   return (
     <article className="ProfileCard" data-id={id}>
